@@ -4,8 +4,8 @@ android {
     compileSdkVersion 29
     buildToolsVersion "29.0.3"
     defaultConfig {
-        applicationId "com.marichtech.splashscreen"
-        minSdkVersion 15
+        applicationId "in.handwritten.android.splashscreen"
+        minSdkVersion 16
         targetSdkVersion 29
         versionCode 1
         versionName "1.0"
@@ -26,9 +26,25 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+    implementation 'com.daimajia.androidanimations:library:2.4@aar'
+
+    implementation 'com.squareup.retrofit2:retrofit:2.3.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.3.0'
+    implementation 'com.google.android.gms:play-services-auth:17.0.0'
+    implementation 'com.android.support:recyclerview-v7:26.1.0'
+    implementation 'com.intuit.sdp:sdp-android:1.0.4'
+    implementation 'com.github.QuadFlask:colorpicker:0.0.15'
+    implementation "androidx.cardview:cardview:1.0.0"
+    implementation 'com.github.douglasjunior:android-simple-tooltip:1.0.0-rc.0'
+
+
+
+
+
+
 
     //Splash used libraries
     implementation 'com.daimajia.androidanimations:library:2.3@aar'
-    implementation 'com.airbnb.android:lottie:2.2.5'
+    implementation 'com.airbnb.android:lottie:3.4.0'
 
 }

@@ -41,6 +41,11 @@ dependencies {
     <artifactId>library</artifactId>
     <version>2.0</version>
 </dependency>
+<dependency>
+    <groupId>com.daimajia.androidanimation</groupId>
+    <artifactId>library</artifactId>
+    <version>2.4</version>
+</dependency>
 ```
 ### Android Lottie
 #### Gradle

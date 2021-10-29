@@ -1,23 +1,31 @@
-package com.marichtech.splashscreen;
+package in.handwritten.android.splashscreen;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.ContextCompat;
 import androidx.core.content.res.ResourcesCompat;
 
+import android.app.Activity;
 import android.content.Intent;
+import android.graphics.Color;
+import android.graphics.ColorFilter;
+import android.graphics.PorterDuff;
+import android.graphics.PorterDuffColorFilter;
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.os.Handler;
 import android.widget.TextView;
 
+import com.airbnb.lottie.LottieAnimationView;
 import com.daimajia.androidanimations.library.Techniques;
 import com.daimajia.androidanimations.library.YoYo;
-import com.marichtech.splashscreen.R;
+
+import in.handwritten.android.splashscreen.R;
 
 public class SplashActivity extends AppCompatActivity {
 
 
     // This is the time it will take for the splash screen to be displayed
-    private static int SPLASH_TIME_OUT = 3000;
+    private static int SPLASH_TIME_OUT = 3800;
 
 
 
@@ -32,7 +40,7 @@ public class SplashActivity extends AppCompatActivity {
         Typeface typeface = ResourcesCompat.getFont(this, R.font.blacklist);
 
         TextView appname= findViewById(R.id.appname);
-        appname.setTypeface(typeface);
+        //appname.setTypeface(typeface);
 
         //End of appname font changing
         ////////////////////////////////////////////////////////////////////////////
@@ -58,10 +66,11 @@ public class SplashActivity extends AppCompatActivity {
         //example FadeIn, FadeInUp, FadeInDown, FadeInLeft, FadeInRight
         //FadeOut, FadeOutDown, FadeOutLeft, FadeOutRight, FadeOutUp
 
-        YoYo.with(Techniques.FadeInUp)
-                .duration(5000) // Time it for app name to fade in up
-                .playOn(findViewById(R.id.appname));
+      /*  YoYo.with(Techniques.FadeInUp)
+                .duration(5000)
+                .playOn(findViewById(R.id.appname));*/
         /////////////////////////////////////////////////////////////////////////////
+
 
 
 

@@ -1,4 +1,4 @@
-package com.marichtech.splashscreen;
+package in.handwritten.android;
 
 import org.junit.Test;
 

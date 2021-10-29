@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="1dp"
+    android:background="@drawable/card_container_mode"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/mode_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@+id/quick_mode"
+        android:layout_marginTop="12dp"
+        android:layout_marginStart="@dimen/_18sdp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="4dp"
+        android:text="QUICK MODE (Instant)"
+        android:textSize="15sp"
+        android:textColor="#343a40"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/mode_desc"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Very fast, Low accuracy"
+        android:textColor="#343a40"
+        android:textSize="12sp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginStart="@dimen/_18sdp"
+
+        app:layout_constraintEnd_toEndOf="@+id/guidelineLeft"
+        app:layout_constraintStart_toEndOf="@+id/quick_mode"
+        app:layout_constraintTop_toBottomOf="@+id/mode_text"
+        />
+
+    <TextView
+        android:id="@+id/mode_desc_time"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Estimated time ~ 10 - 15 seconds"
+        android:textColor="#343a40"
+        android:textSize="12sp"
+        android:layout_marginTop="4dp"
+        android:layout_marginStart="@dimen/_18sdp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="12dp"
+        app:layout_constraintEnd_toEndOf="@+id/guidelineLeft"
+        app:layout_constraintStart_toEndOf="@+id/quick_mode"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mode_desc"
+        />
+
+    <TextView
+        android:id="@+id/mode_percentage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="65%"
+        android:textColor="#ff9f1c"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_margin="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guidelineLeft"
+        app:layout_constraintTop_toTopOf="@id/mode_text"
+        />
+
+
+    <TextView
+        android:id="@+id/mode_percentage_desc"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="people find this human written"
+        android:layout_marginStart="6dp"
+        android:layout_marginEnd="12dp"
+        android:textAlignment="center"
+        android:textColor="#ff9f1c"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="@+id/guidelineLeft"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mode_percentage"
+        />
+
+    <androidx.appcompat.widget.AppCompatRadioButton
+        android:id="@+id/quick_mode"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_8sdp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:buttonTint="@color/green_light"
+        android:checked="false"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.65" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,8 +1,10 @@
-package com.marichtech.splashscreen;
+package in.handwritten.android.splashscreen;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import in.handwritten.android.splashscreen.R;
 
 public class Main2Activity extends AppCompatActivity {
 
