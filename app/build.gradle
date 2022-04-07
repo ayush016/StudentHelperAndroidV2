@@ -1,20 +1,33 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 29
+    compileSdkVersion 31
     buildToolsVersion "29.0.3"
+    signingConfigs {
+        release {
+            storeFile file("/Users/ayush.s/handwritting/handkey.jks")
+            storePassword "8003236561"
+            keyAlias "handkey"
+            keyPassword "8003236561"
+        }
+    }
     defaultConfig {
         applicationId "in.handwritten.android.splashscreen"
+        multiDexEnabled true
         minSdkVersion 16
-        targetSdkVersion 29
-        versionCode 1
-        versionName "1.0"
+        targetSdkVersion 31
+        versionCode 100010
+        versionName "1.0.1"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
         release {
-            minifyEnabled false
+            signingConfig signingConfigs.release
+            minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+        debug{
+            signingConfig signingConfigs.release
         }
     }
 }
@@ -31,11 +44,16 @@ dependencies {
     implementation 'com.squareup.retrofit2:retrofit:2.3.0'
     implementation 'com.squareup.retrofit2:converter-gson:2.3.0'
     implementation 'com.google.android.gms:play-services-auth:17.0.0'
-    implementation 'com.android.support:recyclerview-v7:26.1.0'
+    implementation 'androidx.recyclerview:recyclerview:1.2.1'
+    implementation 'com.google.android.material:material:1.0.0'
     implementation 'com.intuit.sdp:sdp-android:1.0.4'
     implementation 'com.github.QuadFlask:colorpicker:0.0.15'
     implementation "androidx.cardview:cardview:1.0.0"
-    implementation 'com.github.douglasjunior:android-simple-tooltip:1.0.0-rc.0'
+    implementation 'com.google.code.gson:gson:2.8.8'
+    implementation 'com.squareup.picasso:picasso:2.5.2'
+    implementation 'net.yslibrary.keyboardvisibilityevent:keyboardvisibilityevent:3.0.0-RC3'
+
+
 
 
 

@@ -1,5 +1,7 @@
 package in.handwritten.android.objects;
 
+import java.util.List;
+
 public class TextToHandWritingSubmitRequest {
 
     private String text;
@@ -8,6 +10,10 @@ public class TextToHandWritingSubmitRequest {
     private int mode;
     private String handwritingColor;
     private qualityIndex quality;
+    private List<HeadingIndexObject> headingIndexObject;
+    private float xAxis;
+    private float yAxis;
+    private float yDiff;
 
     public enum qualityIndex {
         BEST,
@@ -66,5 +72,37 @@ public class TextToHandWritingSubmitRequest {
 
     public void setHandwritingColor(String handwritingColor) {
         this.handwritingColor = handwritingColor;
+    }
+
+    public void setHeadingIndexObject(List<HeadingIndexObject> headingIndexObject) {
+        this.headingIndexObject = headingIndexObject;
+    }
+
+    public List<HeadingIndexObject> getHeadingIndexObject() {
+        return headingIndexObject;
+    }
+
+    public float getxAxis() {
+        return xAxis;
+    }
+
+    public void setxAxis(float xAxis) {
+        this.xAxis = xAxis;
+    }
+
+    public float getyAxis() {
+        return yAxis;
+    }
+
+    public void setyAxis(float yAxis) {
+        this.yAxis = yAxis;
+    }
+
+    public float getyDiff() {
+        return yDiff;
+    }
+
+    public void setyDiff(float yDiff) {
+        this.yDiff = yDiff;
     }
 }

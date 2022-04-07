@@ -2,9 +2,29 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
     android:elevation="1dp"
     android:background="@drawable/card_container_mode"
     xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/pro_banner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PRO"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:paddingStart="@dimen/_12sdp"
+        android:paddingEnd="@dimen/_8sdp"
+        android:paddingTop="@dimen/_2sdp"
+        tools:visibility="visible"
+        android:visibility="gone"
+        android:paddingBottom="@dimen/_2sdp"
+        android:background="@drawable/rectangle_banner"
+        />
+
 
     <TextView
         android:id="@+id/mode_text"
@@ -60,9 +80,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="65%"
-        android:textColor="#ff9f1c"
-        android:textStyle="bold"
-        android:textSize="20sp"
+        android:textColor="@color/goldenrod"
+        android:fontFamily="@font/montserrat_semibold"
+        android:textSize="18sp"
         android:layout_margin="4dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/guidelineLeft"
@@ -75,10 +95,11 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="people find this human written"
+        android:fontFamily="@font/montserrat_semibold"
         android:layout_marginStart="6dp"
         android:layout_marginEnd="12dp"
         android:textAlignment="center"
-        android:textColor="#ff9f1c"
+        android:textColor="@color/goldenrod"
         android:textSize="12sp"
         app:layout_constraintStart_toStartOf="@+id/guidelineLeft"
         app:layout_constraintEnd_toEndOf="parent"
@@ -93,7 +114,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        android:buttonTint="@color/green_light"
+        android:buttonTint="#2e6f95"
         android:checked="false"/>
 
     <androidx.constraintlayout.widget.Guideline

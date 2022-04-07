@@ -2,9 +2,13 @@
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
+    android:id="@+id/selectStep2"
+    android:clickable="true"
+    android:focusableInTouchMode="true"
     android:layout_height="match_parent"
     android:background="#fff"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:focusable="true">
     <androidx.core.widget.NestedScrollView
         android:id="@+id/nestedScroll"
         app:layout_constraintStart_toStartOf="parent"
@@ -66,7 +70,7 @@
                         app:layout_constraintBottom_toBottomOf="parent"
                         android:layout_marginBottom="@dimen/_12sdp"
                         app:layout_constraintEnd_toStartOf="@id/imageBack2"
-                        android:background="@drawable/image_background_container_clicked"
+                        android:background="@drawable/image_background_container"
                         />
                     <ImageView
                         android:id="@+id/imageBack3"
@@ -249,7 +253,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         android:padding="8dp"
-        android:background="#52b69a"
+        android:background="@color/royalblueV2"
         android:textAllCaps="true"
         android:textStyle="bold"
         android:textSize="18dp"

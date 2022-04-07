@@ -13,19 +13,21 @@ import android.graphics.PorterDuffColorFilter;
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.os.Handler;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.airbnb.lottie.LottieAnimationView;
 import com.daimajia.androidanimations.library.Techniques;
 import com.daimajia.androidanimations.library.YoYo;
 
+import in.handwritten.android.customviews.YoYoAnimatorWrapper;
 import in.handwritten.android.splashscreen.R;
 
 public class SplashActivity extends AppCompatActivity {
 
 
     // This is the time it will take for the splash screen to be displayed
-    private static int SPLASH_TIME_OUT = 3800;
+    private static int SPLASH_TIME_OUT = 3200;
 
 
 
@@ -53,18 +55,9 @@ public class SplashActivity extends AppCompatActivity {
         // example Flash, Pulse, RubberBand, Shake, Swing, Wobble, Bounce, Tada, StandUp, Wave.
         // Your can change the techniques to fit your liking.
 
-        YoYo.with(Techniques.Bounce)
-                .duration(7000) // Time it for logo takes to bounce up and down
-                .playOn(findViewById(R.id.logo));
-        /////////////////////////////////////////////////////////////////////////////
+        YoYoAnimatorWrapper yoYoAnimatorWrapper = new YoYoAnimatorWrapper(Techniques.Bounce,findViewById(R.id.logo),7000);
+        yoYoAnimatorWrapper.safeCallToYoYo(true);
 
-
-
-        /////////////////////////////////////////////////////////////////////////////
-        //This is where we make our app name fade in as it moves up
-        // There are other Fade Techniques too
-        //example FadeIn, FadeInUp, FadeInDown, FadeInLeft, FadeInRight
-        //FadeOut, FadeOutDown, FadeOutLeft, FadeOutRight, FadeOutUp
 
       /*  YoYo.with(Techniques.FadeInUp)
                 .duration(5000)

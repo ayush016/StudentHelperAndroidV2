@@ -1,11 +1,16 @@
 package in.handwritten.android.homescreen;
 
+import android.app.Activity;
 import android.content.Context;
 import android.content.DialogInterface;
-import android.graphics.Color;
+import android.content.Intent;
 import android.graphics.drawable.Drawable;
 import android.os.Build;
 import android.os.Bundle;
+import android.text.Spannable;
+import android.text.SpannableStringBuilder;
+import android.text.style.StyleSpan;
+import android.util.Log;
 import android.view.Gravity;
 import android.view.View;
 import android.widget.ImageView;
@@ -20,7 +25,6 @@ import androidx.core.content.ContextCompat;
 import androidx.core.graphics.drawable.DrawableCompat;
 import androidx.core.widget.NestedScrollView;
 import androidx.fragment.app.Fragment;
-import androidx.recyclerview.widget.RecyclerView;
 
 import com.daimajia.androidanimations.library.Techniques;
 import com.daimajia.androidanimations.library.YoYo;
@@ -28,15 +32,15 @@ import com.flask.colorpicker.ColorPickerView;
 import com.flask.colorpicker.OnColorSelectedListener;
 import com.flask.colorpicker.builder.ColorPickerClickListener;
 import com.flask.colorpicker.builder.ColorPickerDialogBuilder;
-
-import java.util.ArrayList;
-import java.util.List;
-
+import in.handwritten.android.customviews.WorkInProgressBottomSheet;
+import in.handwritten.android.customviews.YoYoAnimatorWrapper;
 import in.handwritten.android.objects.TextToHandWritingSubmitRequest;
 import in.handwritten.android.splashscreen.R;
-import io.github.douglasjunior.androidSimpleTooltip.SimpleTooltip;
+import in.handwritten.android.utils.SharedPreferenceManager;
+import in.handwritten.android.utils.SimpleTooltipV2;
+import in.handwritten.android.utils.Utils;
 
-public class FragmentStep2 extends Fragment implements View.OnClickListener {
+public class FragmentStep2 extends Fragment implements View.OnClickListener, WorkInProgressBottomSheet.WorkInProgress {
 
     private Context context;
     ImageView imageView1;
@@ -54,11 +58,24 @@ public class FragmentStep2 extends Fragment implements View.OnClickListener {
     NestedScrollView nestedScrollView;
     homeScreenPresenter presenter;
     textSubmissionFragment textSubmissionFragmentContext;
+    SimpleTooltipV2 selectPageBuilder;
+    SimpleTooltipV2 selectModeBuilder;
+    ConstraintLayout selectStep2;
+    boolean isToolTipShown;
+    int LAUNCH_SECOND_ACTIVITY = 10111;
+    float xAxis;
+    float yAxis;
+    float yDiff;
+
     public FragmentStep2(Context context,TextToHandWritingSubmitRequest textToHandWritingSubmitRequest,homeScreenPresenter presenter) {
         super(R.layout.fragment_step_2);
         this.context = context;
         this.textToHandWritingSubmitRequest = textToHandWritingSubmitRequest;
         this.presenter = presenter;
+    }
+
+    public FragmentStep2(){
+
     }
 
     @Override
@@ -72,6 +89,7 @@ public class FragmentStep2 extends Fragment implements View.OnClickListener {
         TextView modeDescTime = deepModeLayout.findViewById(R.id.mode_desc_time);
         TextView modeDescPercentage = deepModeLayout.findViewById(R.id.mode_percentage);
         TextView modeDescPercentageDesc = deepModeLayout.findViewById(R.id.mode_percentage_desc);
+        TextView proBanner = deepModeLayout.findViewById(R.id.pro_banner);
         AppCompatRadioButton checkBoxQuickMode = quickModeLayout.findViewById(R.id.quick_mode);
         AppCompatRadioButton checkBoxDeepMode = deepModeLayout.findViewById(R.id.quick_mode);
         AppCompatButton proceedButton = getActivity().findViewById(R.id.proceedButton);
@@ -84,6 +102,7 @@ public class FragmentStep2 extends Fragment implements View.OnClickListener {
         modeDescPercentage.setText("95%");
         modeDescPercentage.setTextColor(ContextCompat.getColor(context,R.color.green));
         modeDescPercentageDesc.setTextColor(ContextCompat.getColor(context,R.color.green));
+        proBanner.setVisibility(View.VISIBLE);
         bestQuality = getActivity().findViewById(R.id.best_quality);
         averageQuality = getActivity().findViewById(R.id.average_quality);
         fairQuality = getActivity().findViewById(R.id.bad_quality);
@@ -100,23 +119,15 @@ public class FragmentStep2 extends Fragment implements View.OnClickListener {
         imageView1 = getView().findViewById(R.id.imageBack1);
         imageView2 = getView().findViewById(R.id.imageBack2);
         imageView3 = getView().findViewById(R.id.imageBack3);
+        selectStep2 = getActivity().findViewById(R.id.selectStep2);
 
         imageView1.setOnClickListener(this);
         imageView2.setOnClickListener(this);
         imageView3.setOnClickListener(this);
         proceedButton.setOnClickListener(this);
-
-        /*new SimpleTooltip.Builder(getContext())
-                .anchorView(imageView1)
-                .text("Double Click to enlarge")
-                .gravity(Gravity.BOTTOM)
-                .backgroundColor(ContextCompat.getColor(context,R.color.skyblue))
-                .arrowColor(ContextCompat.getColor(context,R.color.skyblue))
-                .animated(true)
-                .transparentOverlay(false)
-                .build()
-                .show();
-         */
+        if(!isToolTipShown && SharedPreferenceManager.getTooltipDisplayCounter(getActivity())<2) {
+            inflateTooltipView();
+        }
     }
 
     public void setLocked(ImageView v) {
@@ -133,6 +144,22 @@ public class FragmentStep2 extends Fragment implements View.OnClickListener {
 
     }
 
+    private void inflateTooltipView(){
+        selectPageBuilder = new SimpleTooltipV2.Builder(getContext())
+                .anchorView(getView().findViewById(R.id.selectPageCard))
+                .text("Select Page for your work")
+                .gravity(Gravity.BOTTOM)
+                .textColor(ContextCompat.getColor(context,R.color.colorAccent))
+                .highlightShape(0)
+                .backgroundColor(ContextCompat.getColor(context,R.color.indigoV2))
+                .arrowColor(ContextCompat.getColor(context,R.color.indigoV2))
+                .animated(true)
+                .transparentOverlay(false)
+                .build();
+
+        selectPageBuilder.show();
+    }
+
     @Override
     public void onClick(View view) {
         switch (view.getId()){
@@ -141,21 +168,31 @@ public class FragmentStep2 extends Fragment implements View.OnClickListener {
                 setUnlocked(imageView2);
                 setUnlocked(imageView3);
                 textToHandWritingSubmitRequest.setPageType(1);
+                if(!isToolTipShown && SharedPreferenceManager.getTooltipDisplayCounter(getActivity())<2 && textToHandWritingSubmitRequest.getMode() == 0) {
+                    showSelectModeBuilder();
+                }
                 break;
             case R.id.imageBack2:
                 setLocked((ImageView) view);
                 setUnlocked(imageView1);
                 setUnlocked(imageView3);
                 textToHandWritingSubmitRequest.setPageType(2);
+                if(!isToolTipShown && SharedPreferenceManager.getTooltipDisplayCounter(getActivity())<2 && textToHandWritingSubmitRequest.getMode() == 0) {
+                    showSelectModeBuilder();
+                }
                 break;
             case R.id.imageBack3:
-                setLocked((ImageView) view);
+                //Utils.showWorkInProgressToast(getContext(),"We are working");
+                WorkInProgressBottomSheet workInProgressBottomSheet = new WorkInProgressBottomSheet(getString(R.string.wip_custom_background),false,this);
+                workInProgressBottomSheet.show(getActivity().getSupportFragmentManager(),"CustomUploadWIP");
+                //Intent i = new Intent(getActivity(), ImageUploadActivity.class);
+                //startActivityForResult(i, LAUNCH_SECOND_ACTIVITY);
+                /*setLocked((ImageView) view);
                 setUnlocked(imageView1);
                 setUnlocked(imageView2);
-                textToHandWritingSubmitRequest.setPageType(3);
+                textToHandWritingSubmitRequest.setPageType(3);*/
                 break;
             case R.id.quick_mode_layout:
-                //YoYo.with(Techniques.SlideOutUp).playOn(moreOptionsCard);
                 textToHandWritingSubmitRequest.setMode(1);
                 moreOptionsCard.setVisibility(View.INVISIBLE);
                 View dummyView = getActivity().findViewById(R.id.dummyView);
@@ -165,7 +202,8 @@ public class FragmentStep2 extends Fragment implements View.OnClickListener {
             case R.id.deep_mode_layout:
                 textToHandWritingSubmitRequest.setMode(2);
                 if(moreOptionsCard.getVisibility() != View.VISIBLE) {
-                    YoYo.with(Techniques.SlideInLeft).playOn(moreOptionsCard);
+                    new YoYoAnimatorWrapper(Techniques.SlideInLeft,moreOptionsCard,-1).safeCallToYoYo(true);
+                    //YoYo.with(Techniques.SlideInLeft).playOn(moreOptionsCard);
                     moreOptionsCard.setVisibility(View.VISIBLE);
                 }
                 dummyView = getActivity().findViewById(R.id.dummyView);
@@ -180,7 +218,6 @@ public class FragmentStep2 extends Fragment implements View.OnClickListener {
                 break;
             case R.id.quick_mode:
                 if(view.getTag()!= null && view.getTag()=="quickMode"){
-                    //YoYo.with(Techniques.SlideOutUp).playOn(moreOptionsCard);
                     textToHandWritingSubmitRequest.setMode(1);
                     moreOptionsCard.setVisibility(View.INVISIBLE);
                     dummyView = getActivity().findViewById(R.id.dummyView);
@@ -189,7 +226,8 @@ public class FragmentStep2 extends Fragment implements View.OnClickListener {
                 }else {
 
                     if(moreOptionsCard.getVisibility() != View.VISIBLE) {
-                        YoYo.with(Techniques.SlideInLeft).playOn(moreOptionsCard);
+                        new YoYoAnimatorWrapper(Techniques.SlideInLeft,moreOptionsCard,-1).safeCallToYoYo(true);
+                        //YoYo.with(Techniques.SlideInLeft).playOn(moreOptionsCard);
                         moreOptionsCard.setVisibility(View.VISIBLE);
                         dummyView = getActivity().findViewById(R.id.dummyView);
                         dummyView.setVisibility(View.VISIBLE);
@@ -227,7 +265,7 @@ public class FragmentStep2 extends Fragment implements View.OnClickListener {
                 break;
 
             case R.id.proceedButton:
-                if(textToHandWritingSubmitRequest.getMode()!=0 && textToHandWritingSubmitRequest.getPageType()!=0) {
+                if(textToHandWritingSubmitRequest.getMode()!=0 && textToHandWritingSubmitRequest.getPageType()!=0 && textToHandWritingSubmitRequest.getMode()!=2) {
                     presenter.submitComputerText(textToHandWritingSubmitRequest);
                     textSubmissionFragmentContext = new textSubmissionFragment();
                     getActivity().getSupportFragmentManager().beginTransaction().setCustomAnimations(
@@ -236,6 +274,11 @@ public class FragmentStep2 extends Fragment implements View.OnClickListener {
                             R.anim.fade_in,   // popEnter
                             R.anim.slide_out  // popExit
                     ).replace(R.id.container, textSubmissionFragmentContext, null).commit();
+                }else if(textToHandWritingSubmitRequest.getMode()==2){
+                    workInProgressBottomSheet = new WorkInProgressBottomSheet(getString(R.string.wip_deep_mode),true,this);
+                    workInProgressBottomSheet.show(getActivity().getSupportFragmentManager(),"DeepModeWIP");
+                }else{
+                    Utils.showWorkInProgressToast(getContext(),"Please select all options to proceed");
                 }
                 break;
         }
@@ -296,6 +339,61 @@ public class FragmentStep2 extends Fragment implements View.OnClickListener {
     }
 
     public void onComputerTextSubmitted(String dummyText,boolean isSuccess){
-        textSubmissionFragmentContext.onComputerTextSubmitted(dummyText,isSuccess);
+        if(textSubmissionFragmentContext!=null) {
+            textSubmissionFragmentContext.onComputerTextSubmitted(dummyText, isSuccess);
+        }
+    }
+    private void showSelectModeBuilder(){
+        isToolTipShown = true;
+        selectModeBuilder = new SimpleTooltipV2.Builder(getContext())
+                .anchorView(getView().findViewById(R.id.selectModeCard))
+                .text(makeStringBold(getString(R.string.select_mode_builder_text),"Deep","Quick","Remember"))
+                .gravity(Gravity.TOP)
+                .textColor(ContextCompat.getColor(context,R.color.colorAccent))
+                .highlightShape(0)
+                .backgroundColor(ContextCompat.getColor(context,R.color.indigoV2))
+                .arrowColor(ContextCompat.getColor(context,R.color.indigoV2))
+                .animated(true)
+                .transparentOverlay(false)
+                .build();
+        selectModeBuilder.show();
+        SharedPreferenceManager.setTooltipDisplayCounter(getActivity());
+    }
+
+    private SpannableStringBuilder makeStringBold(String text,String bold_A,String bold_B,String italic){
+        final SpannableStringBuilder sb = new SpannableStringBuilder(text);
+
+        final StyleSpan bss_A = new StyleSpan(android.graphics.Typeface.BOLD);
+        final StyleSpan bss_B = new StyleSpan(android.graphics.Typeface.BOLD);
+        final StyleSpan iss = new StyleSpan(android.graphics.Typeface.ITALIC);
+        int italicStart = text.indexOf(italic);
+        int boldStartA = text.indexOf(bold_A);
+        int boldStartB = text.indexOf(bold_B);
+        sb.setSpan(bss_A, boldStartA, boldStartA+bold_A.length()+5, Spannable.SPAN_INCLUSIVE_INCLUSIVE);
+        sb.setSpan(bss_B, boldStartB, boldStartB+bold_B.length()+5, Spannable.SPAN_INCLUSIVE_INCLUSIVE);
+        sb.setSpan(iss, italicStart, text.length(), Spannable.SPAN_INCLUSIVE_INCLUSIVE);
+
+       return sb;
+    }
+
+    @Override
+    public void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        if(requestCode == LAUNCH_SECOND_ACTIVITY){
+            if(resultCode == Activity.RESULT_OK){
+                xAxis = data.getFloatExtra("xAxis",0f);
+                yAxis = data.getFloatExtra("yAxis",0f);
+                yDiff = data.getFloatExtra("yDiff",0f);
+                textToHandWritingSubmitRequest.setxAxis(xAxis);
+                textToHandWritingSubmitRequest.setyAxis(yAxis);
+                textToHandWritingSubmitRequest.setyDiff(yDiff);
+                Log.d("headingIndexObjectsNew",xAxis+","+yAxis+","+yDiff);
+            }
+        }
+    }
+
+    @Override
+    public void selectQuickMode() {
+        quickModeLayout.performClick();
     }
 }

@@ -134,10 +134,12 @@
     <color name="cadetblue">#5F9EA0</color>
     <color name="darkolivegreen">#556B2F</color>
     <color name="indigo">#4B0082</color>
+    <color name="indigoV2">#4f518c</color>
     <color name="mediumturquoise">#48D1CC</color>
     <color name="darkslateblue">#483D8B</color>
     <color name="steelblue">#4682B4</color>
     <color name="royalblue">#4169E1</color>
+    <color name="royalblueV2">#2e6f95</color>
     <color name="turquoise">#40E0D0</color>
     <color name="mediumseagreen">#3CB371</color>
     <color name="limegreen">#32CD32</color>
@@ -163,6 +165,9 @@
     <color name="darkblue">#00008B</color>
     <color name="navy">#000080</color>
     <color name="writingColor">#000096</color>
+    <color name="simpletooltip_background">@color/colorAccent</color>
+    <color name="simpletooltip_text">@android:color/primary_text_light</color>
+    <color name="simpletooltip_arrow">@color/colorAccent</color>
 
 
 </resources>

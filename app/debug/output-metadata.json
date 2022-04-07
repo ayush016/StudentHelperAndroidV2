@@ -4,7 +4,7 @@
     "type": "APK",
     "kind": "Directory"
   },
-  "applicationId": "in.handwritten.android",
+  "applicationId": "in.handwritten.android.splashscreen",
   "variantName": "debug",
   "elements": [
     {

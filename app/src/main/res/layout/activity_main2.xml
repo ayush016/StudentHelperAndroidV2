@@ -98,4 +98,23 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:background="#ee9b00" />
 
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/downloadPdf"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:padding="8dp"
+        android:layout_marginStart="@dimen/_16sdp"
+        android:layout_marginEnd="@dimen/_16sdp"
+        android:background="#2e6f95"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:visibility="gone"
+        tools:visibility="visible"
+        android:textSize="18dp"
+        android:text="DOWNLOAD YOUR FILE"
+        app:layout_constraintTop_toBottomOf="@id/progressComplete"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

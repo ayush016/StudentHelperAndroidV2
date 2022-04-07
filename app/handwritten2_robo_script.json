@@ -1,0 +1,1118 @@
+[
+  {
+    "eventType": "DELAYED_MESSAGE_POSTED",
+    "timestamp": 1637123340843,
+    "actionCode": -1,
+    "delayTime": 3200,
+    "canScrollTo": false,
+    "elementDescriptors": []
+  },
+  {
+    "eventType": "VIEW_CLICKED",
+    "timestamp": 1637123347098,
+    "replacementText": "Enter Manually",
+    "actionCode": -1,
+    "delayTime": 0,
+    "canScrollTo": false,
+    "elementDescriptors": [
+      {
+        "className": "androidx.appcompat.widget.AppCompatTextView",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 3,
+        "resourceId": "in.handwritten.android.splashscreen:id/sign_in_button_manual",
+        "contentDescription": "",
+        "text": "Enter Manually"
+      },
+      {
+        "className": "androidx.constraintlayout.widget.ConstraintLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 0,
+        "resourceId": "in.handwritten.android.splashscreen:id/login_container",
+        "contentDescription": "",
+        "text": ""
+      },
+      {
+        "className": "androidx.appcompat.widget.ContentFrameLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 1,
+        "resourceId": "android:id/content",
+        "contentDescription": "",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "eventType": "VIEW_TEXT_CHANGED",
+    "timestamp": 1637123352912,
+    "replacementText": "ayush test",
+    "actionCode": -1,
+    "delayTime": 0,
+    "canScrollTo": false,
+    "elementDescriptors": [
+      {
+        "className": "androidx.appcompat.widget.AppCompatEditText",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 4,
+        "resourceId": "in.handwritten.android.splashscreen:id/nameManual",
+        "contentDescription": "",
+        "text": ""
+      },
+      {
+        "className": "androidx.constraintlayout.widget.ConstraintLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 0,
+        "resourceId": "in.handwritten.android.splashscreen:id/login_container",
+        "contentDescription": "",
+        "text": ""
+      },
+      {
+        "className": "androidx.appcompat.widget.ContentFrameLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 1,
+        "resourceId": "android:id/content",
+        "contentDescription": "",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "eventType": "VIEW_TEXT_CHANGED",
+    "timestamp": 1637123365796,
+    "replacementText": "ayush.shrivastava@gmail.com",
+    "actionCode": -1,
+    "delayTime": 0,
+    "canScrollTo": false,
+    "elementDescriptors": [
+      {
+        "className": "androidx.appcompat.widget.AppCompatEditText",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 5,
+        "resourceId": "in.handwritten.android.splashscreen:id/emailManual",
+        "contentDescription": "",
+        "text": ""
+      },
+      {
+        "className": "androidx.constraintlayout.widget.ConstraintLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 0,
+        "resourceId": "in.handwritten.android.splashscreen:id/login_container",
+        "contentDescription": "",
+        "text": ""
+      },
+      {
+        "className": "androidx.appcompat.widget.ContentFrameLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 1,
+        "resourceId": "android:id/content",
+        "contentDescription": "",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "eventType": "VIEW_CLICKED",
+    "timestamp": 1637123398390,
+    "replacementText": "LOGIN",
+    "actionCode": -1,
+    "delayTime": 0,
+    "canScrollTo": false,
+    "elementDescriptors": [
+      {
+        "className": "androidx.appcompat.widget.AppCompatButton",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 8,
+        "resourceId": "in.handwritten.android.splashscreen:id/loginButton",
+        "contentDescription": "",
+        "text": "LOGIN"
+      },
+      {
+        "className": "androidx.constraintlayout.widget.ConstraintLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 0,
+        "resourceId": "in.handwritten.android.splashscreen:id/login_container",
+        "contentDescription": "",
+        "text": ""
+      },
+      {
+        "className": "androidx.appcompat.widget.ContentFrameLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 1,
+        "resourceId": "android:id/content",
+        "contentDescription": "",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "eventType": "DELAYED_MESSAGE_POSTED",
+    "timestamp": 1637123402212,
+    "actionCode": -1,
+    "delayTime": 160,
+    "canScrollTo": false,
+    "elementDescriptors": []
+  },
+  {
+    "eventType": "VIEW_CLICKED",
+    "timestamp": 1637123402276,
+    "replacementText": "",
+    "actionCode": -1,
+    "delayTime": 0,
+    "canScrollTo": false,
+    "elementDescriptors": [
+      {
+        "className": "androidx.appcompat.widget.AppCompatImageView",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 0,
+        "resourceId": "in.handwritten.android.splashscreen:id/menu_img",
+        "contentDescription": "",
+        "text": ""
+      },
+      {
+        "className": "android.widget.FrameLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 1,
+        "resourceId": "in.handwritten.android.splashscreen:id/container",
+        "contentDescription": "",
+        "text": ""
+      },
+      {
+        "className": "android.widget.LinearLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 0,
+        "resourceId": "in.handwritten.android.splashscreen:id/top_container",
+        "contentDescription": "",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "eventType": "VIEW_CLICKED",
+    "timestamp": 1637123403887,
+    "replacementText": "",
+    "actionCode": -1,
+    "delayTime": 0,
+    "canScrollTo": false,
+    "elementDescriptors": [
+      {
+        "className": "com.google.android.material.internal.NavigationMenuItemView",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 2,
+        "resourceId": "",
+        "contentDescription": "",
+        "text": ""
+      },
+      {
+        "className": "com.google.android.material.internal.NavigationMenuView",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 0,
+        "resourceId": "in.handwritten.android.splashscreen:id/design_navigation_view",
+        "contentDescription": "",
+        "text": ""
+      },
+      {
+        "className": "com.google.android.material.navigation.NavigationView",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 1,
+        "resourceId": "in.handwritten.android.splashscreen:id/nav_view",
+        "contentDescription": "",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "eventType": "DELAYED_MESSAGE_POSTED",
+    "timestamp": 1637123432949,
+    "actionCode": -1,
+    "delayTime": 160,
+    "canScrollTo": false,
+    "elementDescriptors": []
+  },
+  {
+    "eventType": "VIEW_CLICKED",
+    "timestamp": 1637123433004,
+    "replacementText": "",
+    "actionCode": -1,
+    "delayTime": 0,
+    "canScrollTo": false,
+    "elementDescriptors": [
+      {
+        "className": "androidx.appcompat.widget.AppCompatImageView",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 0,
+        "resourceId": "in.handwritten.android.splashscreen:id/menu_img",
+        "contentDescription": "",
+        "text": ""
+      },
+      {
+        "className": "android.widget.FrameLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 1,
+        "resourceId": "in.handwritten.android.splashscreen:id/container",
+        "contentDescription": "",
+        "text": ""
+      },
+      {
+        "className": "android.widget.LinearLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 0,
+        "resourceId": "in.handwritten.android.splashscreen:id/top_container",
+        "contentDescription": "",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "eventType": "PRESSED_BACK",
+    "timestamp": 1637123438243,
+    "actionCode": -1,
+    "delayTime": 0,
+    "canScrollTo": false,
+    "elementDescriptors": []
+  },
+  {
+    "eventType": "VIEW_CLICKED",
+    "timestamp": 1637123442186,
+    "replacementText": "",
+    "actionCode": -1,
+    "delayTime": 0,
+    "canScrollTo": false,
+    "elementDescriptors": [
+      {
+        "className": "androidx.appcompat.widget.AppCompatImageView",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 0,
+        "resourceId": "in.handwritten.android.splashscreen:id/menu_img",
+        "contentDescription": "",
+        "text": ""
+      },
+      {
+        "className": "android.widget.FrameLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 1,
+        "resourceId": "in.handwritten.android.splashscreen:id/container",
+        "contentDescription": "",
+        "text": ""
+      },
+      {
+        "className": "android.widget.LinearLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 0,
+        "resourceId": "in.handwritten.android.splashscreen:id/top_container",
+        "contentDescription": "",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "eventType": "VIEW_CLICKED",
+    "timestamp": 1637123443534,
+    "replacementText": "",
+    "actionCode": -1,
+    "delayTime": 0,
+    "canScrollTo": false,
+    "elementDescriptors": [
+      {
+        "className": "com.google.android.material.internal.NavigationMenuItemView",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 1,
+        "resourceId": "",
+        "contentDescription": "",
+        "text": ""
+      },
+      {
+        "className": "com.google.android.material.internal.NavigationMenuView",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 0,
+        "resourceId": "in.handwritten.android.splashscreen:id/design_navigation_view",
+        "contentDescription": "",
+        "text": ""
+      },
+      {
+        "className": "com.google.android.material.navigation.NavigationView",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 1,
+        "resourceId": "in.handwritten.android.splashscreen:id/nav_view",
+        "contentDescription": "",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "eventType": "VIEW_LONG_CLICKED",
+    "timestamp": 1637123446793,
+    "replacementText": "",
+    "actionCode": -1,
+    "delayTime": 0,
+    "canScrollTo": false,
+    "elementDescriptors": [
+      {
+        "className": "androidx.appcompat.widget.AppCompatEditText",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 3,
+        "resourceId": "in.handwritten.android.splashscreen:id/assignmetText",
+        "contentDescription": "",
+        "text": ""
+      },
+      {
+        "className": "androidx.constraintlayout.widget.ConstraintLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 1,
+        "resourceId": "in.handwritten.android.splashscreen:id/fragment1",
+        "contentDescription": "",
+        "text": ""
+      },
+      {
+        "className": "android.widget.FrameLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 1,
+        "resourceId": "in.handwritten.android.splashscreen:id/container",
+        "contentDescription": "",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "eventType": "DELAYED_MESSAGE_POSTED",
+    "timestamp": 1637123447114,
+    "actionCode": -1,
+    "delayTime": 50,
+    "canScrollTo": false,
+    "elementDescriptors": []
+  },
+  {
+    "eventType": "VIEW_CLICKED",
+    "timestamp": 1637123448219,
+    "replacementText": "",
+    "actionCode": -1,
+    "delayTime": 0,
+    "canScrollTo": false,
+    "elementDescriptors": [
+      {
+        "className": "android.widget.LinearLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 0,
+        "resourceId": "",
+        "contentDescription": "Paste",
+        "text": ""
+      },
+      {
+        "className": "",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 1,
+        "resourceId": "",
+        "contentDescription": "",
+        "text": ""
+      },
+      {
+        "className": "android.widget.RelativeLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 0,
+        "resourceId": "",
+        "contentDescription": "",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "eventType": "VIEW_TEXT_CHANGED",
+    "timestamp": 1637123448395,
+    "replacementText": "A long time ago, in the eastern world, there rose a few civilizations. The main reasons for the rise of these urban civilizations were access to rivers, which served various functions of human beings. Along with the Mesopotamian civilization and the Egyptian civilization, rose the Indus Valley civilization spanning Northwest India and modern-day Pakistan. The largest amongst the three civilizations, the Indus Valley civilization flourished around 2600 BC, at which time agriculture in India started flourishing. The fertile Indus valley made it possible for agriculture to be carried out on a large scale. The most well-known towns of the Indus Valley in today’s date are Mohenjo Daro and Harappa. Unearthing these two towns showed excavators glimpses into the richness of the Indus Valley civilization, evidenced in ruins and things like household articles, war weapons, gold and silver ornament - and so on. The people of the Indus Valley civilization lived in well-planned towns and well-designed houses made of baked bricks. In an era of developments and prosperity, civilization, unfortunately, came to an end by around 1300 BC, mainly due to natural calamities. ",
+    "actionCode": -1,
+    "delayTime": 0,
+    "canScrollTo": false,
+    "elementDescriptors": [
+      {
+        "className": "androidx.appcompat.widget.AppCompatEditText",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 3,
+        "resourceId": "in.handwritten.android.splashscreen:id/assignmetText",
+        "contentDescription": "",
+        "text": ""
+      },
+      {
+        "className": "androidx.constraintlayout.widget.ConstraintLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 1,
+        "resourceId": "in.handwritten.android.splashscreen:id/fragment1",
+        "contentDescription": "",
+        "text": ""
+      },
+      {
+        "className": "android.widget.FrameLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 1,
+        "resourceId": "in.handwritten.android.splashscreen:id/container",
+        "contentDescription": "",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "eventType": "DELAYED_MESSAGE_POSTED",
+    "timestamp": 1637123448646,
+    "actionCode": -1,
+    "delayTime": 50,
+    "canScrollTo": false,
+    "elementDescriptors": []
+  },
+  {
+    "eventType": "VIEW_CLICKED",
+    "timestamp": 1637123452249,
+    "replacementText": "A long time ago, in the eastern world, there rose a few civilizations. The main reasons for the rise of these urban civilizations were access to rivers, which served various functions of human beings. Along with the Mesopotamian civilization and the Egyptian civilization, rose the Indus Valley civilization spanning Northwest India and modern-day Pakistan. The largest amongst the three civilizations, the Indus Valley civilization flourished around 2600 BC, at which time agriculture in India started flourishing. The fertile Indus valley made it possible for agriculture to be carried out on a large scale. The most well-known towns of the Indus Valley in today’s date are Mohenjo Daro and Harappa. Unearthing these two towns showed excavators glimpses into the richness of the Indus Valley civilization, evidenced in ruins and things like household articles, war weapons, gold and silver ornament - and so on. The people of the Indus Valley civilization lived in well-planned towns and well-designed houses made of baked bricks. In an era of developments and prosperity, civilization, unfortunately, came to an end by around 1300 BC, mainly due to natural calamities. ",
+    "actionCode": -1,
+    "delayTime": 0,
+    "canScrollTo": false,
+    "elementDescriptors": [
+      {
+        "className": "androidx.appcompat.widget.AppCompatEditText",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 3,
+        "resourceId": "in.handwritten.android.splashscreen:id/assignmetText",
+        "contentDescription": "",
+        "text": "A long time ago, in the eastern world, there rose a few civilizations. The main reasons for the rise of these urban civilizations were access to rivers, which served various functions of human beings. Along with the Mesopotamian civilization and the Egyptian civilization, rose the Indus Valley civilization spanning Northwest India and modern-day Pakistan. The largest amongst the three civilizations, the Indus Valley civilization flourished around 2600 BC, at which time agriculture in India started flourishing. The fertile Indus valley made it possible for agriculture to be carried out on a large scale. The most well-known towns of the Indus Valley in today’s date are Mohenjo Daro and Harappa. Unearthing these two towns showed excavators glimpses into the richness of the Indus Valley civilization, evidenced in ruins and things like household articles, war weapons, gold and silver ornament - and so on. The people of the Indus Valley civilization lived in well-planned towns and well-designed houses made of baked bricks. In an era of developments and prosperity, civilization, unfortunately, came to an end by around 1300 BC, mainly due to natural calamities. "
+      },
+      {
+        "className": "androidx.constraintlayout.widget.ConstraintLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 1,
+        "resourceId": "in.handwritten.android.splashscreen:id/fragment1",
+        "contentDescription": "",
+        "text": ""
+      },
+      {
+        "className": "android.widget.FrameLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 1,
+        "resourceId": "in.handwritten.android.splashscreen:id/container",
+        "contentDescription": "",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "eventType": "VIEW_CLICKED",
+    "timestamp": 1637123453380,
+    "replacementText": "A long time ago, in the eastern world, there rose a few civilizations. The main reasons for the rise of these urban civilizations were access to rivers, which served various functions of human beings. Along with the Mesopotamian civilization and the Egyptian civilization, rose the Indus Valley civilization spanning Northwest India and modern-day Pakistan. The largest amongst the three civilizations, the Indus Valley civilization flourished around 2600 BC, at which time agriculture in India started flourishing. The fertile Indus valley made it possible for agriculture to be carried out on a large scale. The most well-known towns of the Indus Valley in today’s date are Mohenjo Daro and Harappa. Unearthing these two towns showed excavators glimpses into the richness of the Indus Valley civilization, evidenced in ruins and things like household articles, war weapons, gold and silver ornament - and so on. The people of the Indus Valley civilization lived in well-planned towns and well-designed houses made of baked bricks. In an era of developments and prosperity, civilization, unfortunately, came to an end by around 1300 BC, mainly due to natural calamities. ",
+    "actionCode": -1,
+    "delayTime": 0,
+    "canScrollTo": false,
+    "elementDescriptors": [
+      {
+        "className": "androidx.appcompat.widget.AppCompatEditText",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 3,
+        "resourceId": "in.handwritten.android.splashscreen:id/assignmetText",
+        "contentDescription": "",
+        "text": "A long time ago, in the eastern world, there rose a few civilizations. The main reasons for the rise of these urban civilizations were access to rivers, which served various functions of human beings. Along with the Mesopotamian civilization and the Egyptian civilization, rose the Indus Valley civilization spanning Northwest India and modern-day Pakistan. The largest amongst the three civilizations, the Indus Valley civilization flourished around 2600 BC, at which time agriculture in India started flourishing. The fertile Indus valley made it possible for agriculture to be carried out on a large scale. The most well-known towns of the Indus Valley in today’s date are Mohenjo Daro and Harappa. Unearthing these two towns showed excavators glimpses into the richness of the Indus Valley civilization, evidenced in ruins and things like household articles, war weapons, gold and silver ornament - and so on. The people of the Indus Valley civilization lived in well-planned towns and well-designed houses made of baked bricks. In an era of developments and prosperity, civilization, unfortunately, came to an end by around 1300 BC, mainly due to natural calamities. "
+      },
+      {
+        "className": "androidx.constraintlayout.widget.ConstraintLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 1,
+        "resourceId": "in.handwritten.android.splashscreen:id/fragment1",
+        "contentDescription": "",
+        "text": ""
+      },
+      {
+        "className": "android.widget.FrameLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 1,
+        "resourceId": "in.handwritten.android.splashscreen:id/container",
+        "contentDescription": "",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "eventType": "VIEW_CLICKED",
+    "timestamp": 1637123454366,
+    "replacementText": "A long time ago, in the eastern world, there rose a few civilizations. The main reasons for the rise of these urban civilizations were access to rivers, which served various functions of human beings. Along with the Mesopotamian civilization and the Egyptian civilization, rose the Indus Valley civilization spanning Northwest India and modern-day Pakistan. The largest amongst the three civilizations, the Indus Valley civilization flourished around 2600 BC, at which time agriculture in India started flourishing. The fertile Indus valley made it possible for agriculture to be carried out on a large scale. The most well-known towns of the Indus Valley in today’s date are Mohenjo Daro and Harappa. Unearthing these two towns showed excavators glimpses into the richness of the Indus Valley civilization, evidenced in ruins and things like household articles, war weapons, gold and silver ornament - and so on. The people of the Indus Valley civilization lived in well-planned towns and well-designed houses made of baked bricks. In an era of developments and prosperity, civilization, unfortunately, came to an end by around 1300 BC, mainly due to natural calamities. ",
+    "actionCode": -1,
+    "delayTime": 0,
+    "canScrollTo": false,
+    "elementDescriptors": [
+      {
+        "className": "androidx.appcompat.widget.AppCompatEditText",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 3,
+        "resourceId": "in.handwritten.android.splashscreen:id/assignmetText",
+        "contentDescription": "",
+        "text": "A long time ago, in the eastern world, there rose a few civilizations. The main reasons for the rise of these urban civilizations were access to rivers, which served various functions of human beings. Along with the Mesopotamian civilization and the Egyptian civilization, rose the Indus Valley civilization spanning Northwest India and modern-day Pakistan. The largest amongst the three civilizations, the Indus Valley civilization flourished around 2600 BC, at which time agriculture in India started flourishing. The fertile Indus valley made it possible for agriculture to be carried out on a large scale. The most well-known towns of the Indus Valley in today’s date are Mohenjo Daro and Harappa. Unearthing these two towns showed excavators glimpses into the richness of the Indus Valley civilization, evidenced in ruins and things like household articles, war weapons, gold and silver ornament - and so on. The people of the Indus Valley civilization lived in well-planned towns and well-designed houses made of baked bricks. In an era of developments and prosperity, civilization, unfortunately, came to an end by around 1300 BC, mainly due to natural calamities. "
+      },
+      {
+        "className": "androidx.constraintlayout.widget.ConstraintLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 1,
+        "resourceId": "in.handwritten.android.splashscreen:id/fragment1",
+        "contentDescription": "",
+        "text": ""
+      },
+      {
+        "className": "android.widget.FrameLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 1,
+        "resourceId": "in.handwritten.android.splashscreen:id/container",
+        "contentDescription": "",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "eventType": "VIEW_LONG_CLICKED",
+    "timestamp": 1637123456892,
+    "replacementText": "A long time ago, in the eastern world, there rose a few civilizations. The main reasons for the rise of these urban civilizations were access to rivers, which served various functions of human beings. Along with the Mesopotamian civilization and the Egyptian civilization, rose the Indus Valley civilization spanning Northwest India and modern-day Pakistan. The largest amongst the three civilizations, the Indus Valley civilization flourished around 2600 BC, at which time agriculture in India started flourishing. The fertile Indus valley made it possible for agriculture to be carried out on a large scale. The most well-known towns of the Indus Valley in today’s date are Mohenjo Daro and Harappa. Unearthing these two towns showed excavators glimpses into the richness of the Indus Valley civilization, evidenced in ruins and things like household articles, war weapons, gold and silver ornament - and so on. The people of the Indus Valley civilization lived in well-planned towns and well-designed houses made of baked bricks. In an era of developments and prosperity, civilization, unfortunately, came to an end by around 1300 BC, mainly due to natural calamities. ",
+    "actionCode": -1,
+    "delayTime": 0,
+    "canScrollTo": false,
+    "elementDescriptors": [
+      {
+        "className": "androidx.appcompat.widget.AppCompatEditText",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 3,
+        "resourceId": "in.handwritten.android.splashscreen:id/assignmetText",
+        "contentDescription": "",
+        "text": "A long time ago, in the eastern world, there rose a few civilizations. The main reasons for the rise of these urban civilizations were access to rivers, which served various functions of human beings. Along with the Mesopotamian civilization and the Egyptian civilization, rose the Indus Valley civilization spanning Northwest India and modern-day Pakistan. The largest amongst the three civilizations, the Indus Valley civilization flourished around 2600 BC, at which time agriculture in India started flourishing. The fertile Indus valley made it possible for agriculture to be carried out on a large scale. The most well-known towns of the Indus Valley in today’s date are Mohenjo Daro and Harappa. Unearthing these two towns showed excavators glimpses into the richness of the Indus Valley civilization, evidenced in ruins and things like household articles, war weapons, gold and silver ornament - and so on. The people of the Indus Valley civilization lived in well-planned towns and well-designed houses made of baked bricks. In an era of developments and prosperity, civilization, unfortunately, came to an end by around 1300 BC, mainly due to natural calamities. "
+      },
+      {
+        "className": "androidx.constraintlayout.widget.ConstraintLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 1,
+        "resourceId": "in.handwritten.android.splashscreen:id/fragment1",
+        "contentDescription": "",
+        "text": ""
+      },
+      {
+        "className": "android.widget.FrameLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 1,
+        "resourceId": "in.handwritten.android.splashscreen:id/container",
+        "contentDescription": "",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "eventType": "DELAYED_MESSAGE_POSTED",
+    "timestamp": 1637123457203,
+    "actionCode": -1,
+    "delayTime": 2000,
+    "canScrollTo": false,
+    "elementDescriptors": []
+  },
+  {
+    "eventType": "VIEW_LONG_CLICKED",
+    "timestamp": 1637123458357,
+    "replacementText": "A long time ago, in the eastern world, there rose a few civilizations. The main reasons for the rise of these urban civilizations were access to rivers, which served various functions of human beings. Along with the Mesopotamian civilization and the Egyptian civilization, rose the Indus Valley civilization spanning Northwest India and modern-day Pakistan. The largest amongst the three civilizations, the Indus Valley civilization flourished around 2600 BC, at which time agriculture in India started flourishing. The fertile Indus valley made it possible for agriculture to be carried out on a large scale. The most well-known towns of the Indus Valley in today’s date are Mohenjo Daro and Harappa. Unearthing these two towns showed excavators glimpses into the richness of the Indus Valley civilization, evidenced in ruins and things like household articles, war weapons, gold and silver ornament - and so on. The people of the Indus Valley civilization lived in well-planned towns and well-designed houses made of baked bricks. In an era of developments and prosperity, civilization, unfortunately, came to an end by around 1300 BC, mainly due to natural calamities. ",
+    "actionCode": -1,
+    "delayTime": 0,
+    "canScrollTo": false,
+    "elementDescriptors": [
+      {
+        "className": "androidx.appcompat.widget.AppCompatEditText",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 3,
+        "resourceId": "in.handwritten.android.splashscreen:id/assignmetText",
+        "contentDescription": "",
+        "text": "A long time ago, in the eastern world, there rose a few civilizations. The main reasons for the rise of these urban civilizations were access to rivers, which served various functions of human beings. Along with the Mesopotamian civilization and the Egyptian civilization, rose the Indus Valley civilization spanning Northwest India and modern-day Pakistan. The largest amongst the three civilizations, the Indus Valley civilization flourished around 2600 BC, at which time agriculture in India started flourishing. The fertile Indus valley made it possible for agriculture to be carried out on a large scale. The most well-known towns of the Indus Valley in today’s date are Mohenjo Daro and Harappa. Unearthing these two towns showed excavators glimpses into the richness of the Indus Valley civilization, evidenced in ruins and things like household articles, war weapons, gold and silver ornament - and so on. The people of the Indus Valley civilization lived in well-planned towns and well-designed houses made of baked bricks. In an era of developments and prosperity, civilization, unfortunately, came to an end by around 1300 BC, mainly due to natural calamities. "
+      },
+      {
+        "className": "androidx.constraintlayout.widget.ConstraintLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 1,
+        "resourceId": "in.handwritten.android.splashscreen:id/fragment1",
+        "contentDescription": "",
+        "text": ""
+      },
+      {
+        "className": "android.widget.FrameLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 1,
+        "resourceId": "in.handwritten.android.splashscreen:id/container",
+        "contentDescription": "",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "eventType": "DELAYED_MESSAGE_POSTED",
+    "timestamp": 1637123458722,
+    "actionCode": -1,
+    "delayTime": 2000,
+    "canScrollTo": false,
+    "elementDescriptors": []
+  },
+  {
+    "eventType": "VIEW_CLICKED",
+    "timestamp": 1637123466110,
+    "replacementText": "",
+    "actionCode": -1,
+    "delayTime": 0,
+    "canScrollTo": false,
+    "elementDescriptors": [
+      {
+        "className": "androidx.appcompat.widget.AppCompatImageView",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 5,
+        "resourceId": "in.handwritten.android.splashscreen:id/heading_selector",
+        "contentDescription": "",
+        "text": ""
+      },
+      {
+        "className": "androidx.constraintlayout.widget.ConstraintLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 1,
+        "resourceId": "in.handwritten.android.splashscreen:id/fragment1",
+        "contentDescription": "",
+        "text": ""
+      },
+      {
+        "className": "android.widget.FrameLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 1,
+        "resourceId": "in.handwritten.android.splashscreen:id/container",
+        "contentDescription": "",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "eventType": "VIEW_CLICKED",
+    "timestamp": 1637123467698,
+    "replacementText": "A long time ago, in the eastern world, there rose a few civilizations. The main reasons for the rise of these urban civilizations were access to rivers, which served various functions of human beings. Along with the Mesopotamian civilization and the Egyptian civilization, rose the Indus Valley civilization spanning Northwest India and modern-day Pakistan. The largest amongst the three civilizations, the Indus Valley civilization flourished around 2600 BC, at which time agriculture in India started flourishing. The fertile Indus valley made it possible for agriculture to be carried out on a large scale. The most well-known towns of the Indus Valley in today’s date are Mohenjo Daro and Harappa. Unearthing these two towns showed excavators glimpses into the richness of the Indus Valley civilization, evidenced in ruins and things like household articles, war weapons, gold and silver ornament - and so on. The people of the Indus Valley civilization lived in well-planned towns and well-designed houses made of baked bricks. In an era of developments and prosperity, civilization, unfortunately, came to an end by around 1300 BC, mainly due to natural calamities. ",
+    "actionCode": -1,
+    "delayTime": 0,
+    "canScrollTo": false,
+    "elementDescriptors": [
+      {
+        "className": "androidx.appcompat.widget.AppCompatEditText",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 3,
+        "resourceId": "in.handwritten.android.splashscreen:id/assignmetText",
+        "contentDescription": "",
+        "text": "A long time ago, in the eastern world, there rose a few civilizations. The main reasons for the rise of these urban civilizations were access to rivers, which served various functions of human beings. Along with the Mesopotamian civilization and the Egyptian civilization, rose the Indus Valley civilization spanning Northwest India and modern-day Pakistan. The largest amongst the three civilizations, the Indus Valley civilization flourished around 2600 BC, at which time agriculture in India started flourishing. The fertile Indus valley made it possible for agriculture to be carried out on a large scale. The most well-known towns of the Indus Valley in today’s date are Mohenjo Daro and Harappa. Unearthing these two towns showed excavators glimpses into the richness of the Indus Valley civilization, evidenced in ruins and things like household articles, war weapons, gold and silver ornament - and so on. The people of the Indus Valley civilization lived in well-planned towns and well-designed houses made of baked bricks. In an era of developments and prosperity, civilization, unfortunately, came to an end by around 1300 BC, mainly due to natural calamities. "
+      },
+      {
+        "className": "androidx.constraintlayout.widget.ConstraintLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 1,
+        "resourceId": "in.handwritten.android.splashscreen:id/fragment1",
+        "contentDescription": "",
+        "text": ""
+      },
+      {
+        "className": "android.widget.FrameLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 1,
+        "resourceId": "in.handwritten.android.splashscreen:id/container",
+        "contentDescription": "",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "eventType": "VIEW_TEXT_CHANGED",
+    "timestamp": 1637123469302,
+    "replacementText": "A long time ago, \nin the eastern world, there rose a few civilizations. The main reasons for the rise of these urban civilizations were access to rivers, which served various functions of human beings. Along with the Mesopotamian civilization and the Egyptian civilization, rose the Indus Valley civilization spanning Northwest India and modern-day Pakistan. The largest amongst the three civilizations, the Indus Valley civilization flourished around 2600 BC, at which time agriculture in India started flourishing. The fertile Indus valley made it possible for agriculture to be carried out on a large scale. The most well-known towns of the Indus Valley in today’s date are Mohenjo Daro and Harappa. Unearthing these two towns showed excavators glimpses into the richness of the Indus Valley civilization, evidenced in ruins and things like household articles, war weapons, gold and silver ornament - and so on. The people of the Indus Valley civilization lived in well-planned towns and well-designed houses made of baked bricks. In an era of developments and prosperity, civilization, unfortunately, came to an end by around 1300 BC, mainly due to natural calamities. ",
+    "actionCode": -1,
+    "delayTime": 0,
+    "canScrollTo": false,
+    "elementDescriptors": [
+      {
+        "className": "androidx.appcompat.widget.AppCompatEditText",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 3,
+        "resourceId": "in.handwritten.android.splashscreen:id/assignmetText",
+        "contentDescription": "",
+        "text": "A long time ago, in the eastern world, there rose a few civilizations. The main reasons for the rise of these urban civilizations were access to rivers, which served various functions of human beings. Along with the Mesopotamian civilization and the Egyptian civilization, rose the Indus Valley civilization spanning Northwest India and modern-day Pakistan. The largest amongst the three civilizations, the Indus Valley civilization flourished around 2600 BC, at which time agriculture in India started flourishing. The fertile Indus valley made it possible for agriculture to be carried out on a large scale. The most well-known towns of the Indus Valley in today’s date are Mohenjo Daro and Harappa. Unearthing these two towns showed excavators glimpses into the richness of the Indus Valley civilization, evidenced in ruins and things like household articles, war weapons, gold and silver ornament - and so on. The people of the Indus Valley civilization lived in well-planned towns and well-designed houses made of baked bricks. In an era of developments and prosperity, civilization, unfortunately, came to an end by around 1300 BC, mainly due to natural calamities. "
+      },
+      {
+        "className": "androidx.constraintlayout.widget.ConstraintLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 1,
+        "resourceId": "in.handwritten.android.splashscreen:id/fragment1",
+        "contentDescription": "",
+        "text": ""
+      },
+      {
+        "className": "android.widget.FrameLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 1,
+        "resourceId": "in.handwritten.android.splashscreen:id/container",
+        "contentDescription": "",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "eventType": "DELAYED_MESSAGE_POSTED",
+    "timestamp": 1637123471973,
+    "actionCode": -1,
+    "delayTime": 200,
+    "canScrollTo": false,
+    "elementDescriptors": []
+  },
+  {
+    "eventType": "VIEW_CLICKED",
+    "timestamp": 1637123474009,
+    "replacementText": "PROCEED",
+    "actionCode": -1,
+    "delayTime": 0,
+    "canScrollTo": false,
+    "elementDescriptors": [
+      {
+        "className": "androidx.appcompat.widget.AppCompatButton",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 7,
+        "resourceId": "in.handwritten.android.splashscreen:id/proceedButton",
+        "contentDescription": "",
+        "text": "PROCEED"
+      },
+      {
+        "className": "androidx.constraintlayout.widget.ConstraintLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 1,
+        "resourceId": "in.handwritten.android.splashscreen:id/fragment1",
+        "contentDescription": "",
+        "text": ""
+      },
+      {
+        "className": "android.widget.FrameLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 1,
+        "resourceId": "in.handwritten.android.splashscreen:id/container",
+        "contentDescription": "",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "eventType": "VIEW_CLICKED",
+    "timestamp": 1637123475623,
+    "replacementText": "",
+    "actionCode": -1,
+    "delayTime": 0,
+    "canScrollTo": false,
+    "elementDescriptors": [
+      {
+        "className": "androidx.appcompat.widget.AppCompatImageView",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 1,
+        "resourceId": "in.handwritten.android.splashscreen:id/imageBack2",
+        "contentDescription": "",
+        "text": ""
+      },
+      {
+        "className": "androidx.constraintlayout.widget.ConstraintLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 0,
+        "resourceId": "",
+        "contentDescription": "",
+        "text": ""
+      },
+      {
+        "className": "androidx.cardview.widget.CardView",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 0,
+        "resourceId": "in.handwritten.android.splashscreen:id/selectPageCard",
+        "contentDescription": "",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "eventType": "VIEW_CLICKED",
+    "timestamp": 1637123476297,
+    "replacementText": "",
+    "actionCode": -1,
+    "delayTime": 0,
+    "canScrollTo": false,
+    "elementDescriptors": [
+      {
+        "className": "androidx.constraintlayout.widget.ConstraintLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 0,
+        "resourceId": "in.handwritten.android.splashscreen:id/quick_mode_layout",
+        "contentDescription": "",
+        "text": ""
+      },
+      {
+        "className": "androidx.constraintlayout.widget.ConstraintLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 0,
+        "resourceId": "",
+        "contentDescription": "",
+        "text": ""
+      },
+      {
+        "className": "androidx.cardview.widget.CardView",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 1,
+        "resourceId": "in.handwritten.android.splashscreen:id/selectModeCard",
+        "contentDescription": "",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "eventType": "VIEW_CLICKED",
+    "timestamp": 1637123478229,
+    "replacementText": "PROCEED",
+    "actionCode": -1,
+    "delayTime": 0,
+    "canScrollTo": false,
+    "elementDescriptors": [
+      {
+        "className": "androidx.appcompat.widget.AppCompatButton",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 1,
+        "resourceId": "in.handwritten.android.splashscreen:id/proceedButton",
+        "contentDescription": "",
+        "text": "PROCEED"
+      },
+      {
+        "className": "androidx.constraintlayout.widget.ConstraintLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 1,
+        "resourceId": "in.handwritten.android.splashscreen:id/selectStep2",
+        "contentDescription": "",
+        "text": ""
+      },
+      {
+        "className": "android.widget.FrameLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 1,
+        "resourceId": "in.handwritten.android.splashscreen:id/container",
+        "contentDescription": "",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "eventType": "DELAYED_MESSAGE_POSTED",
+    "timestamp": 1637123478485,
+    "actionCode": -1,
+    "delayTime": 3000,
+    "canScrollTo": false,
+    "elementDescriptors": []
+  },
+  {
+    "eventType": "VIEW_CLICKED",
+    "timestamp": 1637123519656,
+    "replacementText": "",
+    "actionCode": -1,
+    "delayTime": 0,
+    "canScrollTo": false,
+    "elementDescriptors": [
+      {
+        "className": "androidx.appcompat.widget.AppCompatImageView",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 0,
+        "resourceId": "in.handwritten.android.splashscreen:id/menu_img",
+        "contentDescription": "",
+        "text": ""
+      },
+      {
+        "className": "android.widget.FrameLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 1,
+        "resourceId": "in.handwritten.android.splashscreen:id/container",
+        "contentDescription": "",
+        "text": ""
+      },
+      {
+        "className": "android.widget.LinearLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 0,
+        "resourceId": "in.handwritten.android.splashscreen:id/top_container",
+        "contentDescription": "",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "eventType": "VIEW_CLICKED",
+    "timestamp": 1637123521554,
+    "replacementText": "",
+    "actionCode": -1,
+    "delayTime": 0,
+    "canScrollTo": false,
+    "elementDescriptors": [
+      {
+        "className": "com.google.android.material.internal.NavigationMenuItemView",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 1,
+        "resourceId": "",
+        "contentDescription": "",
+        "text": ""
+      },
+      {
+        "className": "com.google.android.material.internal.NavigationMenuView",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 0,
+        "resourceId": "in.handwritten.android.splashscreen:id/design_navigation_view",
+        "contentDescription": "",
+        "text": ""
+      },
+      {
+        "className": "com.google.android.material.navigation.NavigationView",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 1,
+        "resourceId": "in.handwritten.android.splashscreen:id/nav_view",
+        "contentDescription": "",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "eventType": "VIEW_CLICKED",
+    "timestamp": 1637123523748,
+    "replacementText": "",
+    "actionCode": -1,
+    "delayTime": 0,
+    "canScrollTo": false,
+    "elementDescriptors": [
+      {
+        "className": "androidx.appcompat.widget.AppCompatImageView",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 0,
+        "resourceId": "in.handwritten.android.splashscreen:id/menu_img",
+        "contentDescription": "",
+        "text": ""
+      },
+      {
+        "className": "android.widget.FrameLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 1,
+        "resourceId": "in.handwritten.android.splashscreen:id/container",
+        "contentDescription": "",
+        "text": ""
+      },
+      {
+        "className": "android.widget.LinearLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 0,
+        "resourceId": "in.handwritten.android.splashscreen:id/top_container",
+        "contentDescription": "",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "eventType": "VIEW_CLICKED",
+    "timestamp": 1637123525163,
+    "replacementText": "",
+    "actionCode": -1,
+    "delayTime": 0,
+    "canScrollTo": false,
+    "elementDescriptors": [
+      {
+        "className": "com.google.android.material.internal.NavigationMenuItemView",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 2,
+        "resourceId": "",
+        "contentDescription": "",
+        "text": ""
+      },
+      {
+        "className": "com.google.android.material.internal.NavigationMenuView",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 0,
+        "resourceId": "in.handwritten.android.splashscreen:id/design_navigation_view",
+        "contentDescription": "",
+        "text": ""
+      },
+      {
+        "className": "com.google.android.material.navigation.NavigationView",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 1,
+        "resourceId": "in.handwritten.android.splashscreen:id/nav_view",
+        "contentDescription": "",
+        "text": ""
+      }
+    ]
+  }
+]
