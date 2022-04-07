@@ -1,0 +1,87 @@
+package in.handwritten.android.splashscreen;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.ContextCompat;
+import androidx.core.content.res.ResourcesCompat;
+
+import android.app.Activity;
+import android.content.Intent;
+import android.graphics.Color;
+import android.graphics.ColorFilter;
+import android.graphics.PorterDuff;
+import android.graphics.PorterDuffColorFilter;
+import android.graphics.Typeface;
+import android.os.Bundle;
+import android.os.Handler;
+import android.widget.ImageView;
+import android.widget.TextView;
+
+import com.airbnb.lottie.LottieAnimationView;
+import com.daimajia.androidanimations.library.Techniques;
+import com.daimajia.androidanimations.library.YoYo;
+
+import in.handwritten.android.customviews.YoYoAnimatorWrapper;
+import in.handwritten.android.splashscreen.R;
+
+public class SplashActivity extends AppCompatActivity {
+
+
+    // This is the time it will take for the splash screen to be displayed
+    private static int SPLASH_TIME_OUT = 3200;
+
+
+
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_splash);
+
+        ////////////////////////////////////////////////////////////////////////////
+        // This is where we change our app name font to blacklist font
+        Typeface typeface = ResourcesCompat.getFont(this, R.font.blacklist);
+
+        TextView appname= findViewById(R.id.appname);
+        //appname.setTypeface(typeface);
+
+        //End of appname font changing
+        ////////////////////////////////////////////////////////////////////////////
+
+
+
+        ////////////////////////////////////////////////////////////////////////////
+        // We use the Yoyo to make our app logo to bounce app and down.
+        //There is a lot of Attension Techniques styles
+        // example Flash, Pulse, RubberBand, Shake, Swing, Wobble, Bounce, Tada, StandUp, Wave.
+        // Your can change the techniques to fit your liking.
+
+        YoYoAnimatorWrapper yoYoAnimatorWrapper = new YoYoAnimatorWrapper(Techniques.Bounce,findViewById(R.id.logo),7000);
+        yoYoAnimatorWrapper.safeCallToYoYo(true);
+
+
+      /*  YoYo.with(Techniques.FadeInUp)
+                .duration(5000)
+                .playOn(findViewById(R.id.appname));*/
+        /////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+        new Handler().postDelayed(new Runnable() {
+
+            /*
+             * Showing splash screen with a timer. This will be useful when you
+             * want to show case your app logo / company
+             */
+
+            @Override
+            public void run() {
+                // This method will be executed once the timer is over
+                // Start your app main activity
+                startActivity(new Intent(SplashActivity.this,MainActivity.class));
+                finish();
+            }
+        }, SPLASH_TIME_OUT);
+    }
+}

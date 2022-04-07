@@ -1,0 +1,1306 @@
+[
+  {
+    "eventType": "DELAYED_MESSAGE_POSTED",
+    "timestamp": 1637075318205,
+    "actionCode": -1,
+    "delayTime": 3200,
+    "canScrollTo": false,
+    "elementDescriptors": []
+  },
+  {
+    "eventType": "VIEW_CLICKED",
+    "timestamp": 1637075332190,
+    "replacementText": "Enter Manually",
+    "actionCode": -1,
+    "delayTime": 0,
+    "canScrollTo": false,
+    "elementDescriptors": [
+      {
+        "className": "androidx.appcompat.widget.AppCompatTextView",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 3,
+        "resourceId": "in.handwritten.android.splashscreen:id/sign_in_button_manual",
+        "contentDescription": "",
+        "text": "Enter Manually"
+      },
+      {
+        "className": "androidx.constraintlayout.widget.ConstraintLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 0,
+        "resourceId": "in.handwritten.android.splashscreen:id/login_container",
+        "contentDescription": "",
+        "text": ""
+      },
+      {
+        "className": "androidx.appcompat.widget.ContentFrameLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 1,
+        "resourceId": "android:id/content",
+        "contentDescription": "",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "eventType": "VIEW_TEXT_CHANGED",
+    "timestamp": 1637075336541,
+    "replacementText": "ayush",
+    "actionCode": -1,
+    "delayTime": 0,
+    "canScrollTo": false,
+    "elementDescriptors": [
+      {
+        "className": "androidx.appcompat.widget.AppCompatEditText",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 4,
+        "resourceId": "in.handwritten.android.splashscreen:id/nameManual",
+        "contentDescription": "",
+        "text": ""
+      },
+      {
+        "className": "androidx.constraintlayout.widget.ConstraintLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 0,
+        "resourceId": "in.handwritten.android.splashscreen:id/login_container",
+        "contentDescription": "",
+        "text": ""
+      },
+      {
+        "className": "androidx.appcompat.widget.ContentFrameLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 1,
+        "resourceId": "android:id/content",
+        "contentDescription": "",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "eventType": "PRESSED_BACK",
+    "timestamp": 1637075342353,
+    "actionCode": -1,
+    "delayTime": 0,
+    "canScrollTo": false,
+    "elementDescriptors": []
+  },
+  {
+    "eventType": "VIEW_TEXT_CHANGED",
+    "timestamp": 1637075344677,
+    "replacementText": "ayush.shrivastava016@",
+    "actionCode": -1,
+    "delayTime": 0,
+    "canScrollTo": false,
+    "elementDescriptors": [
+      {
+        "className": "androidx.appcompat.widget.AppCompatEditText",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 5,
+        "resourceId": "in.handwritten.android.splashscreen:id/emailManual",
+        "contentDescription": "",
+        "text": ""
+      },
+      {
+        "className": "androidx.constraintlayout.widget.ConstraintLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 0,
+        "resourceId": "in.handwritten.android.splashscreen:id/login_container",
+        "contentDescription": "",
+        "text": ""
+      },
+      {
+        "className": "androidx.appcompat.widget.ContentFrameLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 1,
+        "resourceId": "android:id/content",
+        "contentDescription": "",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "eventType": "VIEW_CLICKED",
+    "timestamp": 1637075359507,
+    "replacementText": "LOGIN",
+    "actionCode": -1,
+    "delayTime": 0,
+    "canScrollTo": false,
+    "elementDescriptors": [
+      {
+        "className": "androidx.appcompat.widget.AppCompatButton",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 8,
+        "resourceId": "in.handwritten.android.splashscreen:id/loginButton",
+        "contentDescription": "",
+        "text": "LOGIN"
+      },
+      {
+        "className": "androidx.constraintlayout.widget.ConstraintLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 0,
+        "resourceId": "in.handwritten.android.splashscreen:id/login_container",
+        "contentDescription": "",
+        "text": ""
+      },
+      {
+        "className": "androidx.appcompat.widget.ContentFrameLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 1,
+        "resourceId": "android:id/content",
+        "contentDescription": "",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "eventType": "VIEW_TEXT_CHANGED",
+    "timestamp": 1637075363268,
+    "replacementText": "ayush.shrivastava016@gmail.com",
+    "actionCode": -1,
+    "delayTime": 0,
+    "canScrollTo": false,
+    "elementDescriptors": [
+      {
+        "className": "androidx.appcompat.widget.AppCompatEditText",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 5,
+        "resourceId": "in.handwritten.android.splashscreen:id/emailManual",
+        "contentDescription": "",
+        "text": "ayush.shrivastava016@"
+      },
+      {
+        "className": "androidx.constraintlayout.widget.ConstraintLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 0,
+        "resourceId": "in.handwritten.android.splashscreen:id/login_container",
+        "contentDescription": "",
+        "text": ""
+      },
+      {
+        "className": "androidx.appcompat.widget.ContentFrameLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 1,
+        "resourceId": "android:id/content",
+        "contentDescription": "",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "eventType": "PRESSED_BACK",
+    "timestamp": 1637075368094,
+    "actionCode": -1,
+    "delayTime": 0,
+    "canScrollTo": false,
+    "elementDescriptors": []
+  },
+  {
+    "eventType": "VIEW_CLICKED",
+    "timestamp": 1637075371153,
+    "replacementText": "LOGIN",
+    "actionCode": -1,
+    "delayTime": 0,
+    "canScrollTo": false,
+    "elementDescriptors": [
+      {
+        "className": "androidx.appcompat.widget.AppCompatButton",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 8,
+        "resourceId": "in.handwritten.android.splashscreen:id/loginButton",
+        "contentDescription": "",
+        "text": "LOGIN"
+      },
+      {
+        "className": "androidx.constraintlayout.widget.ConstraintLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 0,
+        "resourceId": "in.handwritten.android.splashscreen:id/login_container",
+        "contentDescription": "",
+        "text": ""
+      },
+      {
+        "className": "androidx.appcompat.widget.ContentFrameLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 1,
+        "resourceId": "android:id/content",
+        "contentDescription": "",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "eventType": "VIEW_CLICKED",
+    "timestamp": 1637075375506,
+    "replacementText": "",
+    "actionCode": -1,
+    "delayTime": 0,
+    "canScrollTo": false,
+    "elementDescriptors": [
+      {
+        "className": "androidx.constraintlayout.widget.ConstraintLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 1,
+        "resourceId": "in.handwritten.android.splashscreen:id/fragment1",
+        "contentDescription": "",
+        "text": ""
+      },
+      {
+        "className": "android.widget.FrameLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 1,
+        "resourceId": "in.handwritten.android.splashscreen:id/container",
+        "contentDescription": "",
+        "text": ""
+      },
+      {
+        "className": "android.widget.LinearLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 0,
+        "resourceId": "in.handwritten.android.splashscreen:id/top_container",
+        "contentDescription": "",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "eventType": "VIEW_LONG_CLICKED",
+    "timestamp": 1637075380124,
+    "replacementText": "",
+    "actionCode": -1,
+    "delayTime": 0,
+    "canScrollTo": false,
+    "elementDescriptors": [
+      {
+        "className": "androidx.appcompat.widget.AppCompatEditText",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 3,
+        "resourceId": "in.handwritten.android.splashscreen:id/assignmetText",
+        "contentDescription": "",
+        "text": ""
+      },
+      {
+        "className": "androidx.constraintlayout.widget.ConstraintLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 1,
+        "resourceId": "in.handwritten.android.splashscreen:id/fragment1",
+        "contentDescription": "",
+        "text": ""
+      },
+      {
+        "className": "android.widget.FrameLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 1,
+        "resourceId": "in.handwritten.android.splashscreen:id/container",
+        "contentDescription": "",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "eventType": "DELAYED_MESSAGE_POSTED",
+    "timestamp": 1637075380548,
+    "actionCode": -1,
+    "delayTime": 50,
+    "canScrollTo": false,
+    "elementDescriptors": []
+  },
+  {
+    "eventType": "VIEW_CLICKED",
+    "timestamp": 1637075381988,
+    "replacementText": "",
+    "actionCode": -1,
+    "delayTime": 0,
+    "canScrollTo": false,
+    "elementDescriptors": [
+      {
+        "className": "android.widget.LinearLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 0,
+        "resourceId": "",
+        "contentDescription": "Paste",
+        "text": ""
+      },
+      {
+        "className": "",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 1,
+        "resourceId": "",
+        "contentDescription": "",
+        "text": ""
+      },
+      {
+        "className": "android.widget.RelativeLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 0,
+        "resourceId": "",
+        "contentDescription": "",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "eventType": "VIEW_TEXT_CHANGED",
+    "timestamp": 1637075382208,
+    "replacementText": "The fifth-century saw the unification of India under Ashoka, who had converted to Buddhism, and it is in his reign that Buddhism spread in many parts of Asia. In the eighth century, Islam came to India for the first time and by the eleventh century had firmly established itself in India as a political force. It resulted in the formation of the Delhi Sultanate, which was finally succeeded by the Mughal Empire, under which India once again achieved a large measure of political unity.\n\n\nIt was in the 17th century that the Europeans came to India. This coincided with the disintegration of the Mughal Empire, paving the way for regional states. In the contest for supremacy, the English emerged \u0027victors\u0027. The Rebellion of 1857-58, which sought to restore Indian supremacy, was crushed; and with the subsequent crowning of Victoria as Empress of India, the incorporation of India into the empire was complete. It was followed by India\u0027s struggle for independence, which we got in the year 1947. Here is a brief timeline about the history of India:",
+    "actionCode": -1,
+    "delayTime": 0,
+    "canScrollTo": false,
+    "elementDescriptors": [
+      {
+        "className": "androidx.appcompat.widget.AppCompatEditText",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 3,
+        "resourceId": "in.handwritten.android.splashscreen:id/assignmetText",
+        "contentDescription": "",
+        "text": ""
+      },
+      {
+        "className": "androidx.constraintlayout.widget.ConstraintLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 1,
+        "resourceId": "in.handwritten.android.splashscreen:id/fragment1",
+        "contentDescription": "",
+        "text": ""
+      },
+      {
+        "className": "android.widget.FrameLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 1,
+        "resourceId": "in.handwritten.android.splashscreen:id/container",
+        "contentDescription": "",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "eventType": "DELAYED_MESSAGE_POSTED",
+    "timestamp": 1637075382514,
+    "actionCode": -1,
+    "delayTime": 50,
+    "canScrollTo": false,
+    "elementDescriptors": []
+  },
+  {
+    "eventType": "VIEW_CLICKED",
+    "timestamp": 1637075384712,
+    "replacementText": "The fifth-century saw the unification of India under Ashoka, who had converted to Buddhism, and it is in his reign that Buddhism spread in many parts of Asia. In the eighth century, Islam came to India for the first time and by the eleventh century had firmly established itself in India as a political force. It resulted in the formation of the Delhi Sultanate, which was finally succeeded by the Mughal Empire, under which India once again achieved a large measure of political unity.\n\n\nIt was in the 17th century that the Europeans came to India. This coincided with the disintegration of the Mughal Empire, paving the way for regional states. In the contest for supremacy, the English emerged \u0027victors\u0027. The Rebellion of 1857-58, which sought to restore Indian supremacy, was crushed; and with the subsequent crowning of Victoria as Empress of India, the incorporation of India into the empire was complete. It was followed by India\u0027s struggle for independence, which we got in the year 1947. Here is a brief timeline about the history of India:",
+    "actionCode": -1,
+    "delayTime": 0,
+    "canScrollTo": false,
+    "elementDescriptors": [
+      {
+        "className": "androidx.appcompat.widget.AppCompatEditText",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 3,
+        "resourceId": "in.handwritten.android.splashscreen:id/assignmetText",
+        "contentDescription": "",
+        "text": "The fifth-century saw the unification of India under Ashoka, who had converted to Buddhism, and it is in his reign that Buddhism spread in many parts of Asia. In the eighth century, Islam came to India for the first time and by the eleventh century had firmly established itself in India as a political force. It resulted in the formation of the Delhi Sultanate, which was finally succeeded by the Mughal Empire, under which India once again achieved a large measure of political unity.\n\n\nIt was in the 17th century that the Europeans came to India. This coincided with the disintegration of the Mughal Empire, paving the way for regional states. In the contest for supremacy, the English emerged \u0027victors\u0027. The Rebellion of 1857-58, which sought to restore Indian supremacy, was crushed; and with the subsequent crowning of Victoria as Empress of India, the incorporation of India into the empire was complete. It was followed by India\u0027s struggle for independence, which we got in the year 1947. Here is a brief timeline about the history of India:"
+      },
+      {
+        "className": "androidx.constraintlayout.widget.ConstraintLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 1,
+        "resourceId": "in.handwritten.android.splashscreen:id/fragment1",
+        "contentDescription": "",
+        "text": ""
+      },
+      {
+        "className": "android.widget.FrameLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 1,
+        "resourceId": "in.handwritten.android.splashscreen:id/container",
+        "contentDescription": "",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "eventType": "VIEW_LONG_CLICKED",
+    "timestamp": 1637075389622,
+    "replacementText": "The fifth-century saw the unification of India under Ashoka, who had converted to Buddhism, and it is in his reign that Buddhism spread in many parts of Asia. In the eighth century, Islam came to India for the first time and by the eleventh century had firmly established itself in India as a political force. It resulted in the formation of the Delhi Sultanate, which was finally succeeded by the Mughal Empire, under which India once again achieved a large measure of political unity.\n\n\nIt was in the 17th century that the Europeans came to India. This coincided with the disintegration of the Mughal Empire, paving the way for regional states. In the contest for supremacy, the English emerged \u0027victors\u0027. The Rebellion of 1857-58, which sought to restore Indian supremacy, was crushed; and with the subsequent crowning of Victoria as Empress of India, the incorporation of India into the empire was complete. It was followed by India\u0027s struggle for independence, which we got in the year 1947. Here is a brief timeline about the history of India:",
+    "actionCode": -1,
+    "delayTime": 0,
+    "canScrollTo": false,
+    "elementDescriptors": [
+      {
+        "className": "androidx.appcompat.widget.AppCompatEditText",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 3,
+        "resourceId": "in.handwritten.android.splashscreen:id/assignmetText",
+        "contentDescription": "",
+        "text": "The fifth-century saw the unification of India under Ashoka, who had converted to Buddhism, and it is in his reign that Buddhism spread in many parts of Asia. In the eighth century, Islam came to India for the first time and by the eleventh century had firmly established itself in India as a political force. It resulted in the formation of the Delhi Sultanate, which was finally succeeded by the Mughal Empire, under which India once again achieved a large measure of political unity.\n\n\nIt was in the 17th century that the Europeans came to India. This coincided with the disintegration of the Mughal Empire, paving the way for regional states. In the contest for supremacy, the English emerged \u0027victors\u0027. The Rebellion of 1857-58, which sought to restore Indian supremacy, was crushed; and with the subsequent crowning of Victoria as Empress of India, the incorporation of India into the empire was complete. It was followed by India\u0027s struggle for independence, which we got in the year 1947. Here is a brief timeline about the history of India:"
+      },
+      {
+        "className": "androidx.constraintlayout.widget.ConstraintLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 1,
+        "resourceId": "in.handwritten.android.splashscreen:id/fragment1",
+        "contentDescription": "",
+        "text": ""
+      },
+      {
+        "className": "android.widget.FrameLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 1,
+        "resourceId": "in.handwritten.android.splashscreen:id/container",
+        "contentDescription": "",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "eventType": "DELAYED_MESSAGE_POSTED",
+    "timestamp": 1637075389960,
+    "actionCode": -1,
+    "delayTime": 2000,
+    "canScrollTo": false,
+    "elementDescriptors": []
+  },
+  {
+    "eventType": "VIEW_CLICKED",
+    "timestamp": 1637075395728,
+    "replacementText": "",
+    "actionCode": -1,
+    "delayTime": 0,
+    "canScrollTo": false,
+    "elementDescriptors": [
+      {
+        "className": "androidx.appcompat.widget.AppCompatImageView",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 5,
+        "resourceId": "in.handwritten.android.splashscreen:id/heading_selector",
+        "contentDescription": "",
+        "text": ""
+      },
+      {
+        "className": "androidx.constraintlayout.widget.ConstraintLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 1,
+        "resourceId": "in.handwritten.android.splashscreen:id/fragment1",
+        "contentDescription": "",
+        "text": ""
+      },
+      {
+        "className": "android.widget.FrameLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 1,
+        "resourceId": "in.handwritten.android.splashscreen:id/container",
+        "contentDescription": "",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "eventType": "VIEW_CLICKED",
+    "timestamp": 1637075398471,
+    "replacementText": "The fifth-century saw the unification of India under Ashoka, who had converted to Buddhism, and it is in his reign that Buddhism spread in many parts of Asia. In the eighth century, Islam came to India for the first time and by the eleventh century had firmly established itself in India as a political force. It resulted in the formation of the Delhi Sultanate, which was finally succeeded by the Mughal Empire, under which India once again achieved a large measure of political unity.\n\n\nIt was in the 17th century that the Europeans came to India. This coincided with the disintegration of the Mughal Empire, paving the way for regional states. In the contest for supremacy, the English emerged \u0027victors\u0027. The Rebellion of 1857-58, which sought to restore Indian supremacy, was crushed; and with the subsequent crowning of Victoria as Empress of India, the incorporation of India into the empire was complete. It was followed by India\u0027s struggle for independence, which we got in the year 1947. Here is a brief timeline about the history of India:",
+    "actionCode": -1,
+    "delayTime": 0,
+    "canScrollTo": false,
+    "elementDescriptors": [
+      {
+        "className": "androidx.appcompat.widget.AppCompatEditText",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 3,
+        "resourceId": "in.handwritten.android.splashscreen:id/assignmetText",
+        "contentDescription": "",
+        "text": "The fifth-century saw the unification of India under Ashoka, who had converted to Buddhism, and it is in his reign that Buddhism spread in many parts of Asia. In the eighth century, Islam came to India for the first time and by the eleventh century had firmly established itself in India as a political force. It resulted in the formation of the Delhi Sultanate, which was finally succeeded by the Mughal Empire, under which India once again achieved a large measure of political unity.\n\n\nIt was in the 17th century that the Europeans came to India. This coincided with the disintegration of the Mughal Empire, paving the way for regional states. In the contest for supremacy, the English emerged \u0027victors\u0027. The Rebellion of 1857-58, which sought to restore Indian supremacy, was crushed; and with the subsequent crowning of Victoria as Empress of India, the incorporation of India into the empire was complete. It was followed by India\u0027s struggle for independence, which we got in the year 1947. Here is a brief timeline about the history of India:"
+      },
+      {
+        "className": "androidx.constraintlayout.widget.ConstraintLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 1,
+        "resourceId": "in.handwritten.android.splashscreen:id/fragment1",
+        "contentDescription": "",
+        "text": ""
+      },
+      {
+        "className": "android.widget.FrameLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 1,
+        "resourceId": "in.handwritten.android.splashscreen:id/container",
+        "contentDescription": "",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "eventType": "VIEW_TEXT_CHANGED",
+    "timestamp": 1637075399644,
+    "replacementText": "The fifth-century \nI saw the unification of India under Ashoka, who had converted to Buddhism, and it is in his reign that Buddhism spread in many parts of Asia. In the eighth century, Islam came to India for the first time and by the eleventh century had firmly established itself in India as a political force. It resulted in the formation of the Delhi Sultanate, which was finally succeeded by the Mughal Empire, under which India once again achieved a large measure of political unity.\n\n\nIt was in the 17th century that the Europeans came to India. This coincided with the disintegration of the Mughal Empire, paving the way for regional states. In the contest for supremacy, the English emerged \u0027victors\u0027. The Rebellion of 1857-58, which sought to restore Indian supremacy, was crushed; and with the subsequent crowning of Victoria as Empress of India, the incorporation of India into the empire was complete. It was followed by India\u0027s struggle for independence, which we got in the year 1947. Here is a brief timeline about the history of India:",
+    "actionCode": -1,
+    "delayTime": 0,
+    "canScrollTo": false,
+    "elementDescriptors": [
+      {
+        "className": "androidx.appcompat.widget.AppCompatEditText",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 3,
+        "resourceId": "in.handwritten.android.splashscreen:id/assignmetText",
+        "contentDescription": "",
+        "text": "The fifth-century saw the unification of India under Ashoka, who had converted to Buddhism, and it is in his reign that Buddhism spread in many parts of Asia. In the eighth century, Islam came to India for the first time and by the eleventh century had firmly established itself in India as a political force. It resulted in the formation of the Delhi Sultanate, which was finally succeeded by the Mughal Empire, under which India once again achieved a large measure of political unity.\n\n\nIt was in the 17th century that the Europeans came to India. This coincided with the disintegration of the Mughal Empire, paving the way for regional states. In the contest for supremacy, the English emerged \u0027victors\u0027. The Rebellion of 1857-58, which sought to restore Indian supremacy, was crushed; and with the subsequent crowning of Victoria as Empress of India, the incorporation of India into the empire was complete. It was followed by India\u0027s struggle for independence, which we got in the year 1947. Here is a brief timeline about the history of India:"
+      },
+      {
+        "className": "androidx.constraintlayout.widget.ConstraintLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 1,
+        "resourceId": "in.handwritten.android.splashscreen:id/fragment1",
+        "contentDescription": "",
+        "text": ""
+      },
+      {
+        "className": "android.widget.FrameLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 1,
+        "resourceId": "in.handwritten.android.splashscreen:id/container",
+        "contentDescription": "",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "eventType": "VIEW_CLICKED",
+    "timestamp": 1637075406182,
+    "replacementText": "The fifth-century \nI saw the unification of India under Ashoka, who had converted to Buddhism, and it is in his reign that Buddhism spread in many parts of Asia. In the eighth century, Islam came to India for the first time and by the eleventh century had firmly established itself in India as a political force. It resulted in the formation of the Delhi Sultanate, which was finally succeeded by the Mughal Empire, under which India once again achieved a large measure of political unity.\n\n\nIt was in the 17th century that the Europeans came to India. This coincided with the disintegration of the Mughal Empire, paving the way for regional states. In the contest for supremacy, the English emerged \u0027victors\u0027. The Rebellion of 1857-58, which sought to restore Indian supremacy, was crushed; and with the subsequent crowning of Victoria as Empress of India, the incorporation of India into the empire was complete. It was followed by India\u0027s struggle for independence, which we got in the year 1947. Here is a brief timeline about the history of India:",
+    "actionCode": -1,
+    "delayTime": 0,
+    "canScrollTo": false,
+    "elementDescriptors": [
+      {
+        "className": "androidx.appcompat.widget.AppCompatEditText",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 3,
+        "resourceId": "in.handwritten.android.splashscreen:id/assignmetText",
+        "contentDescription": "",
+        "text": "The fifth-century \nI saw the unification of India under Ashoka, who had converted to Buddhism, and it is in his reign that Buddhism spread in many parts of Asia. In the eighth century, Islam came to India for the first time and by the eleventh century had firmly established itself in India as a political force. It resulted in the formation of the Delhi Sultanate, which was finally succeeded by the Mughal Empire, under which India once again achieved a large measure of political unity.\n\n\nIt was in the 17th century that the Europeans came to India. This coincided with the disintegration of the Mughal Empire, paving the way for regional states. In the contest for supremacy, the English emerged \u0027victors\u0027. The Rebellion of 1857-58, which sought to restore Indian supremacy, was crushed; and with the subsequent crowning of Victoria as Empress of India, the incorporation of India into the empire was complete. It was followed by India\u0027s struggle for independence, which we got in the year 1947. Here is a brief timeline about the history of India:"
+      },
+      {
+        "className": "androidx.constraintlayout.widget.ConstraintLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 1,
+        "resourceId": "in.handwritten.android.splashscreen:id/fragment1",
+        "contentDescription": "",
+        "text": ""
+      },
+      {
+        "className": "android.widget.FrameLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 1,
+        "resourceId": "in.handwritten.android.splashscreen:id/container",
+        "contentDescription": "",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "eventType": "VIEW_TEXT_CHANGED",
+    "timestamp": 1637075406892,
+    "replacementText": "The fifth-century \n\nI saw the unification of India under Ashoka, who had converted to Buddhism, and it is in his reign that Buddhism spread in many parts of Asia. In the eighth century, Islam came to India for the first time and by the eleventh century had firmly established itself in India as a political force. It resulted in the formation of the Delhi Sultanate, which was finally succeeded by the Mughal Empire, under which India once again achieved a large measure of political unity.\n\n\nIt was in the 17th century that the Europeans came to India. This coincided with the disintegration of the Mughal Empire, paving the way for regional states. In the contest for supremacy, the English emerged \u0027victors\u0027. The Rebellion of 1857-58, which sought to restore Indian supremacy, was crushed; and with the subsequent crowning of Victoria as Empress of India, the incorporation of India into the empire was complete. It was followed by India\u0027s struggle for independence, which we got in the year 1947. Here is a brief timeline about the history of India:",
+    "actionCode": -1,
+    "delayTime": 0,
+    "canScrollTo": false,
+    "elementDescriptors": [
+      {
+        "className": "androidx.appcompat.widget.AppCompatEditText",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 3,
+        "resourceId": "in.handwritten.android.splashscreen:id/assignmetText",
+        "contentDescription": "",
+        "text": "The fifth-century \nI saw the unification of India under Ashoka, who had converted to Buddhism, and it is in his reign that Buddhism spread in many parts of Asia. In the eighth century, Islam came to India for the first time and by the eleventh century had firmly established itself in India as a political force. It resulted in the formation of the Delhi Sultanate, which was finally succeeded by the Mughal Empire, under which India once again achieved a large measure of political unity.\n\n\nIt was in the 17th century that the Europeans came to India. This coincided with the disintegration of the Mughal Empire, paving the way for regional states. In the contest for supremacy, the English emerged \u0027victors\u0027. The Rebellion of 1857-58, which sought to restore Indian supremacy, was crushed; and with the subsequent crowning of Victoria as Empress of India, the incorporation of India into the empire was complete. It was followed by India\u0027s struggle for independence, which we got in the year 1947. Here is a brief timeline about the history of India:"
+      },
+      {
+        "className": "androidx.constraintlayout.widget.ConstraintLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 1,
+        "resourceId": "in.handwritten.android.splashscreen:id/fragment1",
+        "contentDescription": "",
+        "text": ""
+      },
+      {
+        "className": "android.widget.FrameLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 1,
+        "resourceId": "in.handwritten.android.splashscreen:id/container",
+        "contentDescription": "",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "eventType": "VIEW_CLICKED",
+    "timestamp": 1637075409850,
+    "replacementText": "The fifth-century \n\nI saw the unification of India under Ashoka, who had converted to Buddhism, and it is in his reign that Buddhism spread in many parts of Asia. In the eighth century, Islam came to India for the first time and by the eleventh century had firmly established itself in India as a political force. It resulted in the formation of the Delhi Sultanate, which was finally succeeded by the Mughal Empire, under which India once again achieved a large measure of political unity.\n\n\nIt was in the 17th century that the Europeans came to India. This coincided with the disintegration of the Mughal Empire, paving the way for regional states. In the contest for supremacy, the English emerged \u0027victors\u0027. The Rebellion of 1857-58, which sought to restore Indian supremacy, was crushed; and with the subsequent crowning of Victoria as Empress of India, the incorporation of India into the empire was complete. It was followed by India\u0027s struggle for independence, which we got in the year 1947. Here is a brief timeline about the history of India:",
+    "actionCode": -1,
+    "delayTime": 0,
+    "canScrollTo": false,
+    "elementDescriptors": [
+      {
+        "className": "androidx.appcompat.widget.AppCompatEditText",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 3,
+        "resourceId": "in.handwritten.android.splashscreen:id/assignmetText",
+        "contentDescription": "",
+        "text": "The fifth-century \n\nI saw the unification of India under Ashoka, who had converted to Buddhism, and it is in his reign that Buddhism spread in many parts of Asia. In the eighth century, Islam came to India for the first time and by the eleventh century had firmly established itself in India as a political force. It resulted in the formation of the Delhi Sultanate, which was finally succeeded by the Mughal Empire, under which India once again achieved a large measure of political unity.\n\n\nIt was in the 17th century that the Europeans came to India. This coincided with the disintegration of the Mughal Empire, paving the way for regional states. In the contest for supremacy, the English emerged \u0027victors\u0027. The Rebellion of 1857-58, which sought to restore Indian supremacy, was crushed; and with the subsequent crowning of Victoria as Empress of India, the incorporation of India into the empire was complete. It was followed by India\u0027s struggle for independence, which we got in the year 1947. Here is a brief timeline about the history of India:"
+      },
+      {
+        "className": "androidx.constraintlayout.widget.ConstraintLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 1,
+        "resourceId": "in.handwritten.android.splashscreen:id/fragment1",
+        "contentDescription": "",
+        "text": ""
+      },
+      {
+        "className": "android.widget.FrameLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 1,
+        "resourceId": "in.handwritten.android.splashscreen:id/container",
+        "contentDescription": "",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "eventType": "VIEW_TEXT_CHANGED",
+    "timestamp": 1637075412148,
+    "replacementText": "The fifth-century \n\nI saw the unification of India under Ashoka, who had converted to Buddhism, and it is in his reign that Buddhism spread in many parts of Asia. In the eighth century, Islam came to India for the first time and by the eleventh century had firmly established itself in India as a political force. It resulted in the formation of the Delhi Sultanate, which was finally succeeded by the Mughal Empire, under which India once again achieved a large measure of political unity.\n\nHeadline\nIt was in the 17th century that the Europeans came to India. This coincided with the disintegration of the Mughal Empire, paving the way for regional states. In the contest for supremacy, the English emerged \u0027victors\u0027. The Rebellion of 1857-58, which sought to restore Indian supremacy, was crushed; and with the subsequent crowning of Victoria as Empress of India, the incorporation of India into the empire was complete. It was followed by India\u0027s struggle for independence, which we got in the year 1947. Here is a brief timeline about the history of India:",
+    "actionCode": -1,
+    "delayTime": 0,
+    "canScrollTo": false,
+    "elementDescriptors": [
+      {
+        "className": "androidx.appcompat.widget.AppCompatEditText",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 3,
+        "resourceId": "in.handwritten.android.splashscreen:id/assignmetText",
+        "contentDescription": "",
+        "text": "The fifth-century \n\nI saw the unification of India under Ashoka, who had converted to Buddhism, and it is in his reign that Buddhism spread in many parts of Asia. In the eighth century, Islam came to India for the first time and by the eleventh century had firmly established itself in India as a political force. It resulted in the formation of the Delhi Sultanate, which was finally succeeded by the Mughal Empire, under which India once again achieved a large measure of political unity.\n\n\nIt was in the 17th century that the Europeans came to India. This coincided with the disintegration of the Mughal Empire, paving the way for regional states. In the contest for supremacy, the English emerged \u0027victors\u0027. The Rebellion of 1857-58, which sought to restore Indian supremacy, was crushed; and with the subsequent crowning of Victoria as Empress of India, the incorporation of India into the empire was complete. It was followed by India\u0027s struggle for independence, which we got in the year 1947. Here is a brief timeline about the history of India:"
+      },
+      {
+        "className": "androidx.constraintlayout.widget.ConstraintLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 1,
+        "resourceId": "in.handwritten.android.splashscreen:id/fragment1",
+        "contentDescription": "",
+        "text": ""
+      },
+      {
+        "className": "android.widget.FrameLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 1,
+        "resourceId": "in.handwritten.android.splashscreen:id/container",
+        "contentDescription": "",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "eventType": "VIEW_LONG_CLICKED",
+    "timestamp": 1637075421732,
+    "replacementText": "The fifth-century \n\nI saw the unification of India under Ashoka, who had converted to Buddhism, and it is in his reign that Buddhism spread in many parts of Asia. In the eighth century, Islam came to India for the first time and by the eleventh century had firmly established itself in India as a political force. It resulted in the formation of the Delhi Sultanate, which was finally succeeded by the Mughal Empire, under which India once again achieved a large measure of political unity.\n\nHeadline\nIt was in the 17th century that the Europeans came to India. This coincided with the disintegration of the Mughal Empire, paving the way for regional states. In the contest for supremacy, the English emerged \u0027victors\u0027. The Rebellion of 1857-58, which sought to restore Indian supremacy, was crushed; and with the subsequent crowning of Victoria as Empress of India, the incorporation of India into the empire was complete. It was followed by India\u0027s struggle for independence, which we got in the year 1947. Here is a brief timeline about the history of India:",
+    "actionCode": -1,
+    "delayTime": 0,
+    "canScrollTo": false,
+    "elementDescriptors": [
+      {
+        "className": "androidx.appcompat.widget.AppCompatEditText",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 3,
+        "resourceId": "in.handwritten.android.splashscreen:id/assignmetText",
+        "contentDescription": "",
+        "text": "The fifth-century \n\nI saw the unification of India under Ashoka, who had converted to Buddhism, and it is in his reign that Buddhism spread in many parts of Asia. In the eighth century, Islam came to India for the first time and by the eleventh century had firmly established itself in India as a political force. It resulted in the formation of the Delhi Sultanate, which was finally succeeded by the Mughal Empire, under which India once again achieved a large measure of political unity.\n\nHeadline\nIt was in the 17th century that the Europeans came to India. This coincided with the disintegration of the Mughal Empire, paving the way for regional states. In the contest for supremacy, the English emerged \u0027victors\u0027. The Rebellion of 1857-58, which sought to restore Indian supremacy, was crushed; and with the subsequent crowning of Victoria as Empress of India, the incorporation of India into the empire was complete. It was followed by India\u0027s struggle for independence, which we got in the year 1947. Here is a brief timeline about the history of India:"
+      },
+      {
+        "className": "androidx.constraintlayout.widget.ConstraintLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 1,
+        "resourceId": "in.handwritten.android.splashscreen:id/fragment1",
+        "contentDescription": "",
+        "text": ""
+      },
+      {
+        "className": "android.widget.FrameLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 1,
+        "resourceId": "in.handwritten.android.splashscreen:id/container",
+        "contentDescription": "",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "eventType": "DELAYED_MESSAGE_POSTED",
+    "timestamp": 1637075422073,
+    "actionCode": -1,
+    "delayTime": 50,
+    "canScrollTo": false,
+    "elementDescriptors": []
+  },
+  {
+    "eventType": "VIEW_CLICKED",
+    "timestamp": 1637075424124,
+    "replacementText": "",
+    "actionCode": -1,
+    "delayTime": 0,
+    "canScrollTo": false,
+    "elementDescriptors": [
+      {
+        "className": "androidx.appcompat.widget.AppCompatImageView",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 5,
+        "resourceId": "in.handwritten.android.splashscreen:id/heading_selector",
+        "contentDescription": "",
+        "text": ""
+      },
+      {
+        "className": "androidx.constraintlayout.widget.ConstraintLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 1,
+        "resourceId": "in.handwritten.android.splashscreen:id/fragment1",
+        "contentDescription": "",
+        "text": ""
+      },
+      {
+        "className": "android.widget.FrameLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 1,
+        "resourceId": "in.handwritten.android.splashscreen:id/container",
+        "contentDescription": "",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "eventType": "PRESSED_BACK",
+    "timestamp": 1637075426231,
+    "actionCode": -1,
+    "delayTime": 0,
+    "canScrollTo": false,
+    "elementDescriptors": []
+  },
+  {
+    "eventType": "DELAYED_MESSAGE_POSTED",
+    "timestamp": 1637075426329,
+    "actionCode": -1,
+    "delayTime": 200,
+    "canScrollTo": false,
+    "elementDescriptors": []
+  },
+  {
+    "eventType": "VIEW_CLICKED",
+    "timestamp": 1637075428379,
+    "replacementText": "",
+    "actionCode": -1,
+    "delayTime": 0,
+    "canScrollTo": false,
+    "elementDescriptors": [
+      {
+        "className": "androidx.appcompat.widget.AppCompatImageView",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 0,
+        "resourceId": "in.handwritten.android.splashscreen:id/menu_img",
+        "contentDescription": "",
+        "text": ""
+      },
+      {
+        "className": "android.widget.FrameLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 1,
+        "resourceId": "in.handwritten.android.splashscreen:id/container",
+        "contentDescription": "",
+        "text": ""
+      },
+      {
+        "className": "android.widget.LinearLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 0,
+        "resourceId": "in.handwritten.android.splashscreen:id/top_container",
+        "contentDescription": "",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "eventType": "VIEW_CLICKED",
+    "timestamp": 1637075429646,
+    "replacementText": "",
+    "actionCode": -1,
+    "delayTime": 0,
+    "canScrollTo": false,
+    "elementDescriptors": [
+      {
+        "className": "com.google.android.material.internal.NavigationMenuItemView",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 2,
+        "resourceId": "",
+        "contentDescription": "",
+        "text": ""
+      },
+      {
+        "className": "com.google.android.material.internal.NavigationMenuView",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 0,
+        "resourceId": "in.handwritten.android.splashscreen:id/design_navigation_view",
+        "contentDescription": "",
+        "text": ""
+      },
+      {
+        "className": "com.google.android.material.navigation.NavigationView",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 1,
+        "resourceId": "in.handwritten.android.splashscreen:id/nav_view",
+        "contentDescription": "",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "eventType": "DELAYED_MESSAGE_POSTED",
+    "timestamp": 1637075438731,
+    "actionCode": -1,
+    "delayTime": 160,
+    "canScrollTo": false,
+    "elementDescriptors": []
+  },
+  {
+    "eventType": "VIEW_CLICKED",
+    "timestamp": 1637075438814,
+    "replacementText": "",
+    "actionCode": -1,
+    "delayTime": 0,
+    "canScrollTo": false,
+    "elementDescriptors": [
+      {
+        "className": "androidx.appcompat.widget.AppCompatImageView",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 0,
+        "resourceId": "in.handwritten.android.splashscreen:id/menu_img",
+        "contentDescription": "",
+        "text": ""
+      },
+      {
+        "className": "android.widget.FrameLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 1,
+        "resourceId": "in.handwritten.android.splashscreen:id/container",
+        "contentDescription": "",
+        "text": ""
+      },
+      {
+        "className": "android.widget.LinearLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 0,
+        "resourceId": "in.handwritten.android.splashscreen:id/top_container",
+        "contentDescription": "",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "eventType": "VIEW_CLICKED",
+    "timestamp": 1637075439992,
+    "replacementText": "",
+    "actionCode": -1,
+    "delayTime": 0,
+    "canScrollTo": false,
+    "elementDescriptors": [
+      {
+        "className": "com.google.android.material.internal.NavigationMenuItemView",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 1,
+        "resourceId": "",
+        "contentDescription": "",
+        "text": ""
+      },
+      {
+        "className": "com.google.android.material.internal.NavigationMenuView",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 0,
+        "resourceId": "in.handwritten.android.splashscreen:id/design_navigation_view",
+        "contentDescription": "",
+        "text": ""
+      },
+      {
+        "className": "com.google.android.material.navigation.NavigationView",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 1,
+        "resourceId": "in.handwritten.android.splashscreen:id/nav_view",
+        "contentDescription": "",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "eventType": "VIEW_CLICKED",
+    "timestamp": 1637075442743,
+    "replacementText": "PROCEED",
+    "actionCode": -1,
+    "delayTime": 0,
+    "canScrollTo": false,
+    "elementDescriptors": [
+      {
+        "className": "androidx.appcompat.widget.AppCompatButton",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 7,
+        "resourceId": "in.handwritten.android.splashscreen:id/proceedButton",
+        "contentDescription": "",
+        "text": "PROCEED"
+      },
+      {
+        "className": "androidx.constraintlayout.widget.ConstraintLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 1,
+        "resourceId": "in.handwritten.android.splashscreen:id/fragment1",
+        "contentDescription": "",
+        "text": ""
+      },
+      {
+        "className": "android.widget.FrameLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 1,
+        "resourceId": "in.handwritten.android.splashscreen:id/container",
+        "contentDescription": "",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "eventType": "VIEW_CLICKED",
+    "timestamp": 1637075444763,
+    "replacementText": "",
+    "actionCode": -1,
+    "delayTime": 0,
+    "canScrollTo": false,
+    "elementDescriptors": [
+      {
+        "className": "androidx.appcompat.widget.AppCompatImageView",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 1,
+        "resourceId": "in.handwritten.android.splashscreen:id/imageBack2",
+        "contentDescription": "",
+        "text": ""
+      },
+      {
+        "className": "androidx.constraintlayout.widget.ConstraintLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 0,
+        "resourceId": "",
+        "contentDescription": "",
+        "text": ""
+      },
+      {
+        "className": "androidx.cardview.widget.CardView",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 0,
+        "resourceId": "in.handwritten.android.splashscreen:id/selectPageCard",
+        "contentDescription": "",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "eventType": "VIEW_CLICKED",
+    "timestamp": 1637075445811,
+    "replacementText": "",
+    "actionCode": -1,
+    "delayTime": 0,
+    "canScrollTo": false,
+    "elementDescriptors": [
+      {
+        "className": "androidx.constraintlayout.widget.ConstraintLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 0,
+        "resourceId": "in.handwritten.android.splashscreen:id/quick_mode_layout",
+        "contentDescription": "",
+        "text": ""
+      },
+      {
+        "className": "androidx.constraintlayout.widget.ConstraintLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 0,
+        "resourceId": "",
+        "contentDescription": "",
+        "text": ""
+      },
+      {
+        "className": "androidx.cardview.widget.CardView",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 1,
+        "resourceId": "in.handwritten.android.splashscreen:id/selectModeCard",
+        "contentDescription": "",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "eventType": "VIEW_CLICKED",
+    "timestamp": 1637075447637,
+    "replacementText": "PROCEED",
+    "actionCode": -1,
+    "delayTime": 0,
+    "canScrollTo": false,
+    "elementDescriptors": [
+      {
+        "className": "androidx.appcompat.widget.AppCompatButton",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 1,
+        "resourceId": "in.handwritten.android.splashscreen:id/proceedButton",
+        "contentDescription": "",
+        "text": "PROCEED"
+      },
+      {
+        "className": "androidx.constraintlayout.widget.ConstraintLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 1,
+        "resourceId": "in.handwritten.android.splashscreen:id/selectStep2",
+        "contentDescription": "",
+        "text": ""
+      },
+      {
+        "className": "android.widget.FrameLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 1,
+        "resourceId": "in.handwritten.android.splashscreen:id/container",
+        "contentDescription": "",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "eventType": "DELAYED_MESSAGE_POSTED",
+    "timestamp": 1637075447912,
+    "actionCode": -1,
+    "delayTime": 3000,
+    "canScrollTo": false,
+    "elementDescriptors": []
+  },
+  {
+    "eventType": "VIEW_CLICKED",
+    "timestamp": 1637075475206,
+    "replacementText": "",
+    "actionCode": -1,
+    "delayTime": 0,
+    "canScrollTo": false,
+    "elementDescriptors": [
+      {
+        "className": "androidx.appcompat.widget.AppCompatImageView",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 0,
+        "resourceId": "in.handwritten.android.splashscreen:id/menu_img",
+        "contentDescription": "",
+        "text": ""
+      },
+      {
+        "className": "android.widget.FrameLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 1,
+        "resourceId": "in.handwritten.android.splashscreen:id/container",
+        "contentDescription": "",
+        "text": ""
+      },
+      {
+        "className": "android.widget.LinearLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 0,
+        "resourceId": "in.handwritten.android.splashscreen:id/top_container",
+        "contentDescription": "",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "eventType": "VIEW_CLICKED",
+    "timestamp": 1637075477223,
+    "replacementText": "",
+    "actionCode": -1,
+    "delayTime": 0,
+    "canScrollTo": false,
+    "elementDescriptors": [
+      {
+        "className": "com.google.android.material.internal.NavigationMenuItemView",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 2,
+        "resourceId": "",
+        "contentDescription": "",
+        "text": ""
+      },
+      {
+        "className": "com.google.android.material.internal.NavigationMenuView",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 0,
+        "resourceId": "in.handwritten.android.splashscreen:id/design_navigation_view",
+        "contentDescription": "",
+        "text": ""
+      },
+      {
+        "className": "com.google.android.material.navigation.NavigationView",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 1,
+        "resourceId": "in.handwritten.android.splashscreen:id/nav_view",
+        "contentDescription": "",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "eventType": "VIEW_CLICKED",
+    "timestamp": 1637075481766,
+    "replacementText": "",
+    "actionCode": -1,
+    "delayTime": 0,
+    "canScrollTo": false,
+    "elementDescriptors": [
+      {
+        "className": "androidx.appcompat.widget.AppCompatImageView",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 1,
+        "resourceId": "in.handwritten.android.splashscreen:id/image",
+        "contentDescription": "",
+        "text": ""
+      },
+      {
+        "className": "androidx.constraintlayout.widget.ConstraintLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 0,
+        "resourceId": "",
+        "contentDescription": "",
+        "text": ""
+      },
+      {
+        "className": "androidx.recyclerview.widget.RecyclerView",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 4,
+        "resourceId": "in.handwritten.android.splashscreen:id/view_downloads_view",
+        "contentDescription": "",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "eventType": "DELAYED_MESSAGE_POSTED",
+    "timestamp": 1637075482150,
+    "actionCode": -1,
+    "delayTime": 7000,
+    "canScrollTo": false,
+    "elementDescriptors": []
+  },
+  {
+    "eventType": "PRESSED_BACK",
+    "timestamp": 1637075491598,
+    "actionCode": -1,
+    "delayTime": 0,
+    "canScrollTo": false,
+    "elementDescriptors": []
+  },
+  {
+    "eventType": "PRESSED_BACK",
+    "timestamp": 1637075492908,
+    "actionCode": -1,
+    "delayTime": 0,
+    "canScrollTo": false,
+    "elementDescriptors": []
+  },
+  {
+    "eventType": "DELAYED_MESSAGE_POSTED",
+    "timestamp": 1637075492984,
+    "actionCode": -1,
+    "delayTime": 2000,
+    "canScrollTo": false,
+    "elementDescriptors": []
+  }
+]

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment1"
+    android:layout_width="match_parent"
+    android:clickable="true"
+    android:focusableInTouchMode="true"
+    android:fitsSystemWindows="true"
+    android:background="#fff"
+    android:layout_height="fill_parent"
+    android:focusable="true">
+
+
+    <TextView
+        android:id="@+id/step1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:text="Step 1 : Paste text to be converted "
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <ImageView
+        android:id="@+id/hide_keyboard"
+        android:layout_width="@dimen/_32sdp"
+        android:layout_height="@dimen/_32sdp"
+        android:src="@drawable/ic_hide_keyboard"
+        android:background="@drawable/dotted_border"
+        android:paddingTop="@dimen/_4sdp"
+        tools:visibility="gone"
+        android:visibility="gone"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/assignmetText"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/step1_hint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/orangered"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textStyle="bold"
+        android:textSize="12dp"
+        android:text="Step 1 : Paste text to be converted "
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="10dp"
+        android:visibility="gone"
+        tools:visibility="visible"
+        android:layout_marginBottom="@dimen/_4sdp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/assignmetText"/>
+
+    <EditText
+        android:id="@+id/assignmetText"
+        android:layout_width="match_parent"
+        android:inputType="textMultiLine"
+        android:overScrollMode="always"
+        android:scrollbarStyle="insideInset"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:scrollbars="vertical"
+        app:layout_constraintTop_toBottomOf="@id/step1"
+        android:padding="8dp"
+        android:gravity="top"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginBottom="@dimen/_200sdp"
+        android:layout_height="0dp"
+        android:textColor="@color/midnightblue"
+        android:textColorHint="#7C7D78"
+        android:layout_marginTop="48dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/round_border_edittext"
+        />
+
+    <TextView
+        android:id="@+id/totalWords"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toBottomOf="@+id/assignmetText"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="24dp"
+        android:visibility="gone"
+        />
+
+
+
+    <ImageView
+        android:id="@+id/heading_selector"
+        android:layout_width="@dimen/_24sdp"
+        android:layout_height="@dimen/_24sdp"
+        android:elevation="@dimen/_4sdp"
+        app:layout_constraintTop_toBottomOf="@+id/assignmetText"
+        app:layout_constraintEnd_toEndOf="@id/assignmetText"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:layout_marginEnd="@dimen/_8sdp"
+        android:background="@drawable/dotted_border"
+        android:padding="@dimen/_4sdp"
+        android:src="@drawable/hlogo"
+        />
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/mic_card"
+        android:layout_width="@dimen/_65sdp"
+        android:layout_height="@dimen/_65sdp"
+        app:cardElevation="@dimen/_24sdp"
+        app:cardCornerRadius="40dp"
+        app:strokeColor="@color/tomato"
+        app:strokeWidth="2dp"
+        app:cardBackgroundColor="@color/snow"
+        app:layout_constraintTop_toBottomOf="@+id/totalWords"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/proceedButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:focusable="true">
+        <ImageView
+            android:layout_width="@dimen/_60sdp"
+            android:layout_height="@dimen/_60sdp"
+            android:paddingTop="@dimen/_8sdp"
+            app:layout_constraintDimensionRatio="1:1"
+            android:src="@drawable/mic2"
+            />
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/proceedButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:padding="8dp"
+        android:background="#2e6f95"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:text="PROCEED"
+        app:layout_constraintEnd_toEndOf="parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

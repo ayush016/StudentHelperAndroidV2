@@ -1,3 +1,12 @@
 <resources>
-    <string name="app_name">Splash Screen</string>
+    <string name="app_name">HandWritten</string>
+    <string name="select_mode_builder_text">⦾ Deep Mode will make Hemant bot evolve and deliver a masterpiece.\n\n⦾ Quick mode will give instant results.\n\nRemember : All big things take time :)</string>
+    <string name ="wip_custom_background">Custom background feature is under development. Please wait for the next update :D</string>
+    <string name ="wip_deep_mode">Deep mode will be available in the next update. Stay tuned</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="something_went_wrong">Sorry, Something went wrong. Please try again after sometime</string>
+    <string name="manual_email_error">Please enter correct email</string>
+    <string name="manual_name_error">Please enter your name</string>
+
 </resources>
